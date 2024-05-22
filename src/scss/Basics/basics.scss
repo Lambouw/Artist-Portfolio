@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Helvetica';
+    color: rgba(0, 0, 0, 0.8);
+}
+
+body::-webkit-scrollbar {
+    display: none; // hide on Chrome, Safari & Opera
+}
+
+body {
+    -ms-overflow-style: none; // hide on IE & Edge
+    scrollbar-width: none; // hide on Firefox
+}
+
+.extern {
+    color: rgba(200, 100, 100, 1);
+    text-decoration: none;
+
+    &:hover {
+        color: rgba(0, 0, 0, 0.8);
+        text-decoration: underline;
+    }
+}

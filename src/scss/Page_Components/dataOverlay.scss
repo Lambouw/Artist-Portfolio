@@ -1,0 +1,15 @@
+.dataoverlay {
+    z-index: 1;
+    background-color: rgba(58, 58, 58, 1);
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem 0;
+    text-align: center;
+
+    &--container{
+        color: white;
+    }
+
+}

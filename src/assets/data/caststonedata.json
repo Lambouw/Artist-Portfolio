@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Kleine Sitzende",
+        "src": "caststone/Kleine_Sitzende.jpeg",
+        "width": 3024,
+        "height": 4032,
+        "dimensions": "17 * 12 * 11 cm"
+    },
+    {
+        "name": "Stehende 1",
+        "src": "caststone/Stehende_1.jpeg",
+        "width": 3024,
+        "height": 4032,
+        "dimensions": "40 * 15 * 14 cm"
+    },
+    {
+        "name": "Stehende 2",
+        "src": "caststone/Stehende_2.jpeg",
+        "width": 3024,
+        "height": 4032,
+        "dimensions": "46 * 15 * 13 cm"
+    }
+]

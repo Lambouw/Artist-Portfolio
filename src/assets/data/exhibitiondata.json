@@ -1,0 +1,39 @@
+{
+    "2020": [
+        {
+            "name": "Symposium Bildhauerhof",
+            "location": "Berglen Streich",
+            "month": "08"
+        },
+        {
+            "name": "Arte Sono",
+            "location": "SI Centrum Stuttgart",
+            "month": "01"
+        }
+    ],
+    "2019": [
+        {
+            "name": "Künstlercafé",
+            "location": "Kulturinsel Bad Cannstatt",
+            "month": "09-10"
+        },
+        {
+            "name": "Facetten der Evolution",
+            "location": "Kunstschule Waiblingen",
+            "month": "05-10"
+        }
+    ],
+    "2018": [
+        {
+            "name": "Galerie Forum Türk",
+            "location": "Nürtingen",
+            "month": "11-12"
+        },
+        {
+            "name": "Symposium Bildhauerhof",
+            "location": "Berglen Streich",
+            "month": "08"
+        }
+    ]
+}
+

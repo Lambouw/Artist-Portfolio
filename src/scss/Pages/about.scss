@@ -1,0 +1,60 @@
+@import '../Basics/mixins';
+
+.about {
+    width: 66%;
+    margin: 0 auto;
+
+    &--title {
+        padding-top: 2rem;
+        padding-bottom: 1.4rem;
+    }
+
+    &--content {
+        display: flex;
+        flex-direction: row;
+
+        &--textcontainer {
+            // margin-right: 4rem;
+            margin-left: 4rem;
+            text-align: justify;
+
+            &--margintop {
+                margin-top: 0.6rem;
+            }
+
+            @include md {
+                margin-left: 0;
+                margin-top: 1rem;
+
+                text-align: left;
+            }
+        }
+
+        &--image {
+            width: 40%;
+            max-width: 16rem;
+            height: 100%;
+
+            @include md {
+                width: 80%;
+                align-self: center;
+            }
+        }
+
+        @include md {
+            flex-direction: column;
+         
+        }
+    }
+
+    &--header {
+        font-size: 1.2rem;
+        padding-top: 2rem;
+    }
+
+    &--text {
+        padding-top: 0.4rem;
+    }
+
+
+}

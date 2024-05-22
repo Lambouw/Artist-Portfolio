@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Selbstportrait",
+    "src": "clay/Selbstportrait.jpeg",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": ""
+  },
+  {
+    "name": "Sitzende 1",
+    "src": "clay/Sitzende_1.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "dimensions": "32 * 24 * 16 cm"
+  },
+  {
+    "name": "Sitzende 2",
+    "src": "clay/Sitzende_2.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "dimensions": "32 * 24 * 16 cm"
+  },
+  {
+    "name": "Liegende 1",
+    "src": "clay/Liegende_1.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "dimensions": "13 * 37 * 10 cm"
+  },
+  {
+    "name": "Liegende 2",
+    "src": "clay/Liegende_2.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "dimensions": "16 * 39 * 10 cm"
+  }
+]

@@ -1,0 +1,20 @@
+@import '../Basics/mixins';
+
+.header {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+
+    &--item {
+        font-size: 4rem;
+        font-weight: 200;
+        text-decoration: none;
+
+        &--surname {
+            font-weight: 600;
+        }
+    }
+
+    @include md {
+        display: none;
+    }
+}

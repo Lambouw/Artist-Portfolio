@@ -1,0 +1,56 @@
+@import '../Basics/mixins';
+
+.landing {
+    // background-color: yellow;
+    // padding: 6rem 0 3.5rem 0;
+    // padding-top: 6rem;
+    
+    // @include md {
+        // padding-top: 6rem;
+    // }
+}
+
+.upper-spacer {
+    min-height: 6rem;
+}
+
+.down-spacer {
+    min-height: 3.5rem;
+}
+
+.swiper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.swiper-img {
+    text-align: center;
+    // align-self: center;
+    // max-width: 100%;
+    // max-height: 500px;
+    // width: auto;
+    // object-fit: contain;
+
+    // display: block;
+    // width: min-content;
+    height: 500px;
+    object-fit: contain;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgba(0, 0, 0, 0.8);
+}
