@@ -1,8 +1,44 @@
 {
+    "2024": [
+        {
+            "name": "Diversity Week",
+            "location": "Catalent Germany Schorndorf",
+            "month": "07"
+        },
+        {
+            "name": "Pop Up",
+            "location": "Q Galerie Schorndorf",
+            "month": "06"
+        }
+    ],
+    "2022": [
+        {
+            "name": "Symposium mit Ausstellung",
+            "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
+            "month": "08"
+        },
+        {
+            "name": "Galerie Narrenwerk",
+            "location": "Schorndorf",
+            "month": "06 Monat fehlt"
+        },
+        {
+            "name": "Galerie Inspirationen",
+            "location": "Sulz Glatt",
+            "month": "06-10/23"
+        }
+    ],
+    "2021": [
+        {
+            "name": "Korber Kopf",
+            "location": "Bildhauerklasse Kunstschule unteres Remstal",
+            "month": "04-03/22"
+        }
+    ],
     "2020": [
         {
-            "name": "Symposium Bildhauerhof",
-            "location": "Berglen Streich",
+            "name": "Symposium mit Ausstellung",
+            "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
             "month": "08"
         },
         {
@@ -19,19 +55,19 @@
         },
         {
             "name": "Facetten der Evolution",
-            "location": "Kunstschule Waiblingen",
+            "location": "Bildhauerklasse Kunstschule unteres Remstal (Remstal Gartenschau)",
             "month": "05-10"
         }
     ],
     "2018": [
         {
-            "name": "Galerie Forum Türk",
-            "location": "Nürtingen",
+            "name": "Merry Christmas",
+            "location": "Galerie Forum Türk, Nürtingen",
             "month": "11-12"
         },
         {
-            "name": "Symposium Bildhauerhof",
-            "location": "Berglen Streich",
+            "name": "Symposium mit Ausstellung",
+            "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
             "month": "08"
         }
     ]
