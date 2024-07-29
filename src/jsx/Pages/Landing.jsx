@@ -15,7 +15,7 @@ import '../../dist/landing.css';
 import img1 from '../../assets/images/wood/Flammenspiel_1.jpeg';
 import img2 from '../../assets/images/wood/Flammenspiel_2.jpeg';
 import img3 from '../../assets/images/wood/Flammenspiel_3.jpeg';
-import img4 from '../../assets/images/wood/Gedankenwelten.jpeg';
+import img4 from '../../assets/images/wood/Gedankenwelt.jpeg';
 import img5 from '../../assets/images/wood/Engelin.jpeg';
 
 const Landing = () => {

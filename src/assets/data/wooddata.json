@@ -1,6 +1,6 @@
 [
     {
-        "name": "Mädchen im Wald (Nuss 10/23) BILDER SIND NOCH FALSCH",
+        "name": "Mädchen im Wald (Nuss 10/23) Bild beim vorletzten fehlt",
         "src": "wood/Mädchen_im_Wald.jpeg",
         "width": 1534,
         "height": 2904,
@@ -98,11 +98,11 @@
         "dimensions": "80 * 27 * 23 cm"
     },
     {
-        "name": "Stehende (Kirsche Öl 04/18)",
+        "name": "Stehende (Kirsche Öl 04/18) BILD FEHLT",
         "src": "wood/Stehende.jpeg",
         "width": 1286,
         "height": 3481,
-        "dimensions": "80 cm hoch / genaue Maße fehlen"
+        "dimensions": "80 cm hoch"
     },
     {
         "name": "Erstes Projekt in Holz (Apfel Öl 17)",
@@ -110,54 +110,5 @@
         "width": 640,
         "height": 480,
         "dimensions": "30 * 23 * 19 cm"
-    },
-    {
-        "name": "Aufbruch in eine neue Welt - ab hier nicht auf HP?",
-        "src": "wood/Aufbruch_in_eine_neue_Welt.jpeg",
-        "width": 1287,
-        "height": 3715,
-        "dimensions": "52 * 19 * 13 cm"
-    },
-    {
-        "name": "Abgetaucht",
-        "src": "wood/Abgetaucht.jpeg",
-        "width": 1510,
-        "height": 3510,
-        "dimensions": "Maße fehlen"
-    },
-    {
-        "name": "Artisten",
-        "src": "wood/Artisten.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "41 * 25 * 25 cm"
-    },
-    {
-        "name": "Zusammenhalt",
-        "src": "wood/Zusammenhalt.jpeg",
-        "width": 1187,
-        "height": 3201,
-        "dimensions": "113 * 13 * 22 cm"
-    },
-    {
-        "name": "Engelin",
-        "src": "wood/Engelin.jpeg",
-        "width": 1271,
-        "height": 3103,
-        "dimensions": "69 * 16 * 16 cm"
-    },
-    {
-        "name": "Lotos",
-        "src": "wood/Lotos.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "31 * 17 * 10 cm"
-    },
-    {
-        "name": "Durchgang",
-        "src": "wood/Durchgang.jpeg",
-        "width": 1727,
-        "height": 3312,
-        "dimensions": "48 * 23 * 15 cm"
     }
 ]
