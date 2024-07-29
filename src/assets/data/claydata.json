@@ -1,37 +1,37 @@
 [
   {
-    "name": "Selbstportrait",
+    "name": "Selbstportrait (20)",
     "src": "clay/Selbstportrait.jpeg",
     "width": 3024,
     "height": 4032,
-    "dimensions": ""
+    "dimensions": "31 * 26 * 20 cm"
   },
   {
-    "name": "Sitzende 1",
-    "src": "clay/Sitzende_1.jpeg",
-    "width": 4032,
-    "height": 3024,
-    "dimensions": "32 * 24 * 16 cm"
-  },
-  {
-    "name": "Sitzende 2",
+    "name": "Sitzende 2 (01/23) BILD FEHLT",
     "src": "clay/Sitzende_2.jpeg",
     "width": 4032,
     "height": 3024,
-    "dimensions": "32 * 24 * 16 cm"
+    "dimensions": "25 * 15 * 17 cm"
   },
   {
-    "name": "Liegende 1",
-    "src": "clay/Liegende_1.jpeg",
-    "width": 4032,
-    "height": 3024,
-    "dimensions": "13 * 37 * 10 cm"
-  },
-  {
-    "name": "Liegende 2",
+    "name": "Liegende 2 (01/23) BILD FEHLT",
     "src": "clay/Liegende_2.jpeg",
     "width": 4032,
     "height": 3024,
-    "dimensions": "16 * 39 * 10 cm"
+    "dimensions": "11 * 30 * 13 cm"
+  },
+  {
+    "name": "Sitzende 1 (01/19)",
+    "src": "clay/Sitzende_1.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "dimensions": "24 * 33 * 17 cm"
+  },
+  {
+    "name": "Liegende 1 (01/18)",
+    "src": "clay/Liegende_1.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "dimensions": "10 * 37 * 17 cm"
   }
 ]

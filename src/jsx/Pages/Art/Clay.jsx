@@ -7,10 +7,10 @@ import ClayData from '../../../assets/data/claydata.json';
 
 // import images
 import img1 from '../../../assets/images/clay/Selbstportrait.jpeg';
-import img2 from '../../../assets/images/clay/Sitzende_1.jpeg';
-import img3 from  '../../../assets/images/clay/Sitzende_2.jpeg';
-import img4 from '../../../assets/images/clay/Liegende_1.jpeg';
-import img5 from '../../../assets/images/clay/Liegende_2.jpeg';
+import img2 from '../../../assets/images/clay/Sitzende_2.jpeg';
+import img3 from  '../../../assets/images/clay/Liegende_2.jpeg';
+import img4 from '../../../assets/images/clay/Sitzende_1.jpeg';
+import img5 from '../../../assets/images/clay/Liegende_1.jpeg';
 
 const images = [img1, img2, img3, img4, img5];
 
