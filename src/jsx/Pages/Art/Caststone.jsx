@@ -9,8 +9,11 @@ import CaststoneData from '../../../assets/data/caststonedata.json';
 import img1 from '../../../assets/images/caststone/Kleine_Sitzende.jpeg';
 import img2 from '../../../assets/images/caststone/Stehende_1.jpeg';
 import img3 from '../../../assets/images/caststone/Stehende_2.jpeg';
+import img4 from '../../../assets/images/caststone/Kleine_Sitzende.jpeg';
+import img5 from '../../../assets/images/caststone/Stehende_1.jpeg';
+import img6 from '../../../assets/images/caststone/Stehende_2.jpeg';
 
-const images = [img1, img2, img3];
+const images = [img1, img2, img3, img4, img5, img6];
 
 const Caststone = () => {
     // loop over caststonedata
