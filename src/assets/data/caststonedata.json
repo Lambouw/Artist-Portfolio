@@ -1,23 +1,44 @@
 [
     {
-        "name": "Kleine Sitzende",
+        "name": "Kleine Sitzende (Gipsguss Acrylfarbe 05/22)",
         "src": "caststone/Kleine_Sitzende.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "17 * 12 * 11 cm"
     },
     {
-        "name": "Stehende 1",
+        "name": "Stehende 1 (Betonguss 02/19) falsches Bild",
         "src": "caststone/Stehende_1.jpeg",
         "width": 3024,
         "height": 4032,
-        "dimensions": "40 * 15 * 14 cm"
+        "dimensions": "40 * 17 * 17 cm"
     },
     {
-        "name": "Stehende 2",
+        "name": "Stehende 2 (Betonguss Spachtel 02/19)",
         "src": "caststone/Stehende_2.jpeg",
         "width": 3024,
         "height": 4032,
-        "dimensions": "46 * 15 * 13 cm"
+        "dimensions": "44 * 12 * 15 cm"
+    },
+    {
+        "name": "Sitzende (Betonguss Acrylfarbe 02/19) Bild fehlt",
+        "src": "caststone/Kleine_Sitzende.jpeg",
+        "width": 3024,
+        "height": 4032,
+        "dimensions": "29 * 16 * 16 cm"
+    },
+    {
+        "name": "Tanzende (Beton Spachteltechnik Datum?) Bild fehlt",
+        "src": "caststone/Stehende_1.jpeg",
+        "width": 3024,
+        "height": 4032,
+        "dimensions": "38 * 12 * 12 cm"
+    },
+    {
+        "name": "Stehende (Bronzeguss 02/19) Bild fehlt",
+        "src": "caststone/Stehende_2.jpeg",
+        "width": 3024,
+        "height": 4032,
+        "dimensions": "ca 30 cm hoch"
     }
 ]
