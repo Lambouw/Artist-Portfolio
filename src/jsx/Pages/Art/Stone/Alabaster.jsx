@@ -6,8 +6,8 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import Alabasterdata from '../../../../assets/data/stone/alabasterdata.json';
 
 // import images
-import img1 from '../../../../assets/images/alabaster/Faltenstein.jpeg';
-import img2 from '../../../../assets/images/alabaster/Spannungsfeld.jpeg';
+import img1 from '../../../../assets/images/stone/alabaster/Faltenstein.jpeg';
+import img2 from '../../../../assets/images/stone/alabaster/Spannungsfeld.jpeg';
 
 const images = [img1, img2];
 

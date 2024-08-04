@@ -6,12 +6,12 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import MarbleData from '../../../../assets/data/stone/marbledata.json';
 
 // import images
-import img1 from '../../../../assets/images/stone/Speckstein_1.jpeg';
-import img2 from '../../../../assets/images/stone/Speckstein_1.jpeg';
-import img3 from '../../../../assets/images/stone/Speckstein_1.jpeg';
-import img4 from '../../../../assets/images/stone/Marmorbueste_einer_Taenzerin.jpeg';
-import img5 from '../../../../assets/images/stone/Speckstein_1.jpeg';
-import img6 from '../../../../assets/images/stone/Kleine_Dicke_im_Stein.jpeg';
+import img1 from '../../../../assets/images/stone/marble/platzhalter.jpeg';
+import img2 from '../../../../assets/images/stone/marble/platzhalter.jpeg';
+import img3 from '../../../../assets/images/stone/marble/platzhalter.jpeg';
+import img4 from '../../../../assets/images/stone/marble/Marmorbueste_einer_Taenzerin.jpeg';
+import img5 from '../../../../assets/images/stone/marble/Liegende.jpeg';
+import img6 from '../../../../assets/images/stone/marble/Kleine_Dicke_im_Stein.jpeg';
 
 const images = [img1, img2, img3, img4, img5, img6];
 

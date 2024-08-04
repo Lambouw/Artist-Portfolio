@@ -6,7 +6,7 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import LimestoneData from '../../../../assets/data/stone/limestonedata.json';
 
 // import images
-import img1 from '../../../../assets/images/stone/Schreitende_(Kalkstein).jpeg';
+import img1 from '../../../../assets/images/stone/limestone/Schreitende.jpeg';
 
 const images = [img1];
 

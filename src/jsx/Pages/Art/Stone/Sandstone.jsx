@@ -6,7 +6,7 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import SandstoneData from '../../../../assets/data/stone/sandstonedata.json';
 
 // import images
-import img1 from '../../../../assets/images/sandstone/Liegende.jpeg';
+import img1 from '../../../../assets/images/stone/sandstone/Liegende.jpeg';
 
 const images = [img1];
 

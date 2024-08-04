@@ -3,10 +3,10 @@ import '../../../../dist/art.css';
 import PictureItem from '../../../Components/PictureItem';
 import GalleryWrapper from '../../../Components/GalleryWrapper';
 
-import GraniteData from '../../../../assets/data/stone/limestonedata.json';
+import GraniteData from '../../../../assets/data/stone/granitedata.json';
 
 // import images
-import img1 from '../../../../assets/images/stone/Schreitende_(Kalkstein).jpeg';
+import img1 from '../../../../assets/images/stone/granite/Schreitende.jpeg';
 
 const images = [img1];
 

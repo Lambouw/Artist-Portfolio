@@ -75,7 +75,7 @@ function App() {
             <Route path="/granite" element={<Granite />} ></Route>
             <Route path="/sandstone" element={<Sandstone />} ></Route>
             <Route path="/alabaster" element={<Alabaster />} ></Route>
-            <Route path="/soapstone" element={<Soapstone />} ></Route>
+            {/* <Route path="/soapstone" element={<Soapstone />} ></Route> */}
 
             {/* <Route path="/stone" element={<Stone />} ></Route> */}
             <Route path="/clay" element={<Clay />} ></Route>
