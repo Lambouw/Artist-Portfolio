@@ -52,6 +52,7 @@ const Navbar = () => {
                                     {isSubDropdownOpen && (
                                         <ul className="navbar--sub--dropdown--menu">
                                             <li className="navbar--sub--dropdown--item" ><NavLink onClick={hideBothDropdown} className="navbar--item" to="/limestone">Kalkstein</NavLink></li>
+                                            <li className="navbar--sub--dropdown--item" ><NavLink onClick={hideBothDropdown} className="navbar--item" to="/granite">Granit</NavLink></li>
                                             <li className="navbar--sub--dropdown--item" ><NavLink onClick={hideBothDropdown} className="navbar--item" to="/marble">Marmor</NavLink></li>
                                             <li className="navbar--sub--dropdown--item" ><NavLink onClick={hideBothDropdown} className="navbar--item" to="/sandstone">Sandstein</NavLink></li>
                                             <li className="navbar--sub--dropdown--item" ><NavLink onClick={hideBothDropdown} className="navbar--item" to="/alabaster">Alabaster</NavLink></li>
@@ -92,6 +93,11 @@ const Navbar = () => {
                                         <div className={`navbar--hamburgermenu--dropdown--content--row--verticalline ${hamMenuVisibility ? 'show' : ''}`}></div>
                                         <div className={`navbar--hamburgermenu--dropdown--content--row--horizontalline ${hamMenuVisibility ? 'show' : ''}`}></div>
                                         <NavLink onClick={toggleHamMenuVis} className={`navbar--hamburgermenu--dropdown--content--row--item ${hamMenuVisibility ? 'show' : ''}`} to="/limestone">Kalkstein</NavLink>
+                                    </div>
+                                    <div className="navbar--hamburgermenu--dropdown--content--row">
+                                        <div className={`navbar--hamburgermenu--dropdown--content--row--verticalline ${hamMenuVisibility ? 'show' : ''}`}></div>
+                                        <div className={`navbar--hamburgermenu--dropdown--content--row--horizontalline ${hamMenuVisibility ? 'show' : ''}`}></div>
+                                        <NavLink onClick={toggleHamMenuVis} className={`navbar--hamburgermenu--dropdown--content--row--item ${hamMenuVisibility ? 'show' : ''}`} to="/granite">Granit</NavLink>
                                     </div>
                                     <div className="navbar--hamburgermenu--dropdown--content--row">
                                         <div className={`navbar--hamburgermenu--dropdown--content--row--verticalline ${hamMenuVisibility ? 'show' : ''}`}></div>

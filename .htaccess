@@ -1,0 +1,22 @@
+# Begin Vite SPA Rewrite Rule
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Route everything to index.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+
+  # Begin HTTP to HTTPS Redirect
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # End HTTP to HTTPS Redirect
+</IfModule>
+# End Vite SPA Rewrite Rule
+
+# Begin HSTS (HTTP Strict Transport Security)
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+# End HSTS

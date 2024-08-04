@@ -6,11 +6,14 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import MarbleData from '../../../../assets/data/stone/marbledata.json';
 
 // import images
-import img1 from '../../../../assets/images/caststone/Kleine_Sitzende.jpeg';
-import img2 from '../../../../assets/images/caststone/Stehende_1.jpeg';
-import img3 from '../../../../assets/images/caststone/Stehende_2.jpeg';
+import img1 from '../../../../assets/images/stone/Speckstein_1.jpeg';
+import img2 from '../../../../assets/images/stone/Speckstein_1.jpeg';
+import img3 from '../../../../assets/images/stone/Speckstein_1.jpeg';
+import img4 from '../../../../assets/images/stone/Marmorbueste_einer_Taenzerin.jpeg';
+import img5 from '../../../../assets/images/stone/Speckstein_1.jpeg';
+import img6 from '../../../../assets/images/stone/Kleine_Dicke_im_Stein.jpeg';
 
-const images = [img1, img2, img3];
+const images = [img1, img2, img3, img4, img5, img6];
 
 const Marble = () => {
     // loop over marbledata

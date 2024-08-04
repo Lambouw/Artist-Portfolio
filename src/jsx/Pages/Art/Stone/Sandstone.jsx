@@ -6,11 +6,9 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import SandstoneData from '../../../../assets/data/stone/sandstonedata.json';
 
 // import images
-import img1 from '../../../../assets/images/caststone/Kleine_Sitzende.jpeg';
-import img2 from '../../../../assets/images/caststone/Stehende_1.jpeg';
-import img3 from '../../../../assets/images/caststone/Stehende_2.jpeg';
+import img1 from '../../../../assets/images/sandstone/Liegende.jpeg';
 
-const images = [img1, img2, img3];
+const images = [img1];
 
 const Sandstone = () => {
     // loop over sandstonedata

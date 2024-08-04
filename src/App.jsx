@@ -14,6 +14,7 @@ import Wood from './jsx/Pages/Art/Wood';
 // import Stone from './jsx/Pages/Art/Stone';
 import Limestone from './jsx/Pages/Art/Stone/Limestone';
 import Marble from './jsx/Pages/Art/Stone/Marble';
+import Granite from './jsx/Pages/Art/Stone/Granite';
 import Sandstone from './jsx/Pages/Art/Stone/Sandstone';
 import Alabaster from './jsx/Pages/Art/Stone/Alabaster';
 import Soapstone from './jsx/Pages/Art/Stone/Soapstone';
@@ -71,6 +72,7 @@ function App() {
 
             <Route path="/limestone" element={<Limestone />} ></Route>
             <Route path="/marble" element={<Marble />} ></Route>
+            <Route path="/granite" element={<Granite />} ></Route>
             <Route path="/sandstone" element={<Sandstone />} ></Route>
             <Route path="/alabaster" element={<Alabaster />} ></Route>
             <Route path="/soapstone" element={<Soapstone />} ></Route>
