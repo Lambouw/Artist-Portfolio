@@ -6,9 +6,9 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import MarbleData from '../../../../assets/data/stone/marbledata.json';
 
 // import images
-import img1 from '../../../../assets/images/stone/marble/platzhalter.jpeg';
-import img2 from '../../../../assets/images/stone/marble/platzhalter.jpeg';
-import img3 from '../../../../assets/images/stone/marble/platzhalter.jpeg';
+import img1 from '../../../../assets/images/stone/marble/Ein_gutes_Leben.jpeg';
+import img2 from '../../../../assets/images/stone/marble/Portrait.jpeg';
+import img3 from '../../../../assets/images/stone/marble/Shelter.jpeg';
 import img4 from '../../../../assets/images/stone/marble/Marmorbueste_einer_Taenzerin.jpeg';
 import img5 from '../../../../assets/images/stone/marble/Liegende.jpeg';
 import img6 from '../../../../assets/images/stone/marble/Kleine_Dicke_im_Stein.jpeg';

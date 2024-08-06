@@ -6,7 +6,7 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import GraniteData from '../../../../assets/data/stone/granitedata.json';
 
 // import images
-import img1 from '../../../../assets/images/stone/granite/Schreitende.jpeg';
+import img1 from '../../../../assets/images/stone/granite/Granite.jpeg';
 
 const images = [img1];
 

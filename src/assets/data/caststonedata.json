@@ -7,7 +7,7 @@
         "dimensions": "17 * 12 * 11 cm"
     },
     {
-        "name": "Stehende 1 (Betonguss 02/19) falsches Bild",
+        "name": "Stehende 1 (Betonguss 02/19)",
         "src": "caststone/Stehende_1.jpeg",
         "width": 3024,
         "height": 4032,
@@ -21,21 +21,21 @@
         "dimensions": "44 * 12 * 15 cm"
     },
     {
-        "name": "Sitzende (Betonguss Acrylfarbe 02/19) Bild fehlt",
+        "name": "Sitzende (Betonguss Acrylfarbe 02/19)",
         "src": "caststone/Kleine_Sitzende.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "29 * 16 * 16 cm"
     },
     {
-        "name": "Tanzende (Beton Spachteltechnik Datum?) Bild fehlt",
+        "name": "Tanzende (Beton Spachteltechnik Datum fehlt!)",
         "src": "caststone/Stehende_1.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "38 * 12 * 12 cm"
     },
     {
-        "name": "Stehende (Bronzeguss 02/19) Bild fehlt",
+        "name": "Stehende 3 (Bronzeguss 02/19)",
         "src": "caststone/Stehende_2.jpeg",
         "width": 3024,
         "height": 4032,

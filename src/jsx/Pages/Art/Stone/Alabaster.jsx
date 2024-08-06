@@ -6,10 +6,11 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 import Alabasterdata from '../../../../assets/data/stone/alabasterdata.json';
 
 // import images
-import img1 from '../../../../assets/images/stone/alabaster/Faltenstein.jpeg';
-import img2 from '../../../../assets/images/stone/alabaster/Spannungsfeld.jpeg';
+import img1 from '../../../../assets/images/stone/alabaster/Faltenstein_1.jpeg';
+import img2 from '../../../../assets/images/stone/alabaster/Faltenstein_2.jpeg';
+import img3 from '../../../../assets/images/stone/alabaster/Spannungsfeld.jpeg';
 
-const images = [img1, img2];
+const images = [img1, img2, img3];
 
 const Alabaster = () => {
     // loop over alabasterdata
