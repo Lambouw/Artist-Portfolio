@@ -5,16 +5,11 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 
 import LimestoneData from '../../../../assets/data/stone/limestonedata.json';
 
-// import images
-import img1 from '../../../../assets/images/stone/limestone/Schreitende.jpeg';
-
-const images = [img1];
-
 const Limestone = () => {
     // loop over limestonedata
     let content = [];
     for (var i = 0; i < LimestoneData.length; i++) {
-        content.push(<PictureItem key={LimestoneData[i].name} item={LimestoneData[i]} image={images[i]}></PictureItem>);
+        content.push(<PictureItem key={LimestoneData[i].name} item={LimestoneData[i]} image={LimestoneData[i].src}></PictureItem>);
     }
 
     return (

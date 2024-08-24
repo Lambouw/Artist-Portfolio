@@ -2,15 +2,12 @@ import React from 'react';
 
 import '../../dist/about.css';
 
-// import images
-import imgIL from '../../assets/images/personal/me.jpg';
-
 const About = () => {
     return (
         <div className="about">
             <h1 className="about--title">Über mich</h1>
             <div className="about--content">
-                <img className="about--content--image" alt="Ingrid Lindemann" src={imgIL}></img>
+                <img className="about--content--image" alt="Ingrid Lindemann" src='/images/personal/me.jpg'></img>
                 <div className="about--content--textcontainer">
                     <p>
                         Schon sehr früh im Kunstunterricht entdeckte ich meine Liebe zur Kunst. Auch die Naturwissenschaften übten eine große Faszination auf mich aus, so dass ich mich 

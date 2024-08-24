@@ -1,21 +1,21 @@
 [
     {
         "name": "Mädchen im Wind",
-        "src": "paintings/Mädchen_im_Wind.jpeg",
+        "src": "/images/paintings/Maedchen_im_Wind.jpeg",
         "width": 1691,
         "height": 2118,
         "dimensions": "50 * 40 cm"
     },
     {
         "name": "Frühling",
-        "src": "paintings/Frühling.jpeg",
+        "src": "/images/paintings/Fruehling.jpeg",
         "width": 1805,
         "height": 2407,
         "dimensions": "70 * 50 cm"
     },
     {
         "name": "Sommer",
-        "src": "paintings/Sommer.jpeg",
+        "src": "/images/paintings/Sommer.jpeg",
         "width": 2215,
         "height": 3214,
         "dimensions": "70 * 50 cm"

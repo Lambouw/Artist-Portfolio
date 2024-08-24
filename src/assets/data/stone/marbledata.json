@@ -1,42 +1,42 @@
 [
     {
         "name": "Ein gutes Leben (08/22)",
-        "src": "stone/Ein_gutes_Leben.jpeg",
+        "src": "/images/stone/marble/Ein_gutes_Leben.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "49 * 23 * 24 cm"
     },
     {
         "name": "Portrait (03/22)",
-        "src": "stone/Liegende_(Marmor).jpeg",
+        "src": "/images/stone/marble/Portrait.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "10 * 12 * 2 cm"
     },
     {
         "name": "Shelter (08/21)",
-        "src": "stone/Liegende_(Marmor).jpeg",
+        "src": "/images/stone/marble/Shelter.jpeg",
         "width": 3024,
         "height": 3328,
         "dimensions": "27 * 31 * 18 cm"
     },
     {
         "name": "Marmorbüste einer Tänzerin (07/18)",
-        "src": "stone/Marmorbüste_einer_Tänzerin.jpeg",
+        "src": "/images/stone/marble/Marmorbueste_einer_Taenzerin.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "40 * 38 * 15 cm"
     },
     {
         "name": "Liegende (08/20)",
-        "src": "stone/Marmorbüste_einer_Tänzerin.jpeg",
+        "src": "/images/stone/marble/Liegende.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": ""
     },
     {
         "name": "Kleine Dicke im Stein (08/18)",
-        "src": "stone/Kleine_Dicke_im_Stein_(Marmor).jpeg",
+        "src": "/images/stone/marble/Kleine_Dicke_im_Stein.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": ""

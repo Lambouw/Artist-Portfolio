@@ -5,21 +5,11 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 
 import MarbleData from '../../../../assets/data/stone/marbledata.json';
 
-// import images
-import img1 from '../../../../assets/images/stone/marble/Ein_gutes_Leben.jpeg';
-import img2 from '../../../../assets/images/stone/marble/Portrait.jpeg';
-import img3 from '../../../../assets/images/stone/marble/Shelter.jpeg';
-import img4 from '../../../../assets/images/stone/marble/Marmorbueste_einer_Taenzerin.jpeg';
-import img5 from '../../../../assets/images/stone/marble/Liegende.jpeg';
-import img6 from '../../../../assets/images/stone/marble/Kleine_Dicke_im_Stein.jpeg';
-
-const images = [img1, img2, img3, img4, img5, img6];
-
 const Marble = () => {
     // loop over marbledata
     let content = [];
     for (var i = 0; i < MarbleData.length; i++) {
-        content.push(<PictureItem key={MarbleData[i].name} item={MarbleData[i]} image={images[i]}></PictureItem>);
+        content.push(<PictureItem key={MarbleData[i].name} item={MarbleData[i]} image={MarbleData[i].src}></PictureItem>);
     }
 
     return (

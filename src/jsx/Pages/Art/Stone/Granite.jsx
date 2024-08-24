@@ -5,16 +5,11 @@ import GalleryWrapper from '../../../Components/GalleryWrapper';
 
 import GraniteData from '../../../../assets/data/stone/granitedata.json';
 
-// import images
-import img1 from '../../../../assets/images/stone/granite/Granite.jpeg';
-
-const images = [img1];
-
 const Granite = () => {
     // loop over granitedata
     let content = [];
     for (var i = 0; i < GraniteData.length; i++) {
-        content.push(<PictureItem key={GraniteData[i].name} item={GraniteData[i]} image={images[i]}></PictureItem>);
+        content.push(<PictureItem key={GraniteData[i].name} item={GraniteData[i]} image={GraniteData[i].src}></PictureItem>);
     }
 
     return (
