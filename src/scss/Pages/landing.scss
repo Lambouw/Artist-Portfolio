@@ -1,56 +1,117 @@
-@import '../Basics/mixins';
-
-.landing {
-    // background-color: yellow;
-    // padding: 6rem 0 3.5rem 0;
-    // padding-top: 6rem;
-    
-    // @include md {
-        // padding-top: 6rem;
-    // }
-}
+@import "../Basics/mixins";
 
 .upper-spacer {
-    min-height: 6rem;
+  min-height: 6rem;
 }
 
 .down-spacer {
-    min-height: 3.5rem;
+  min-height: 3.5rem;
 }
 
 .swiper {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .swiper-slide {
-    text-align: center;
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
 
 .swiper-img {
-    text-align: center;
-    // align-self: center;
-    // max-width: 100%;
-    // max-height: 500px;
-    // width: auto;
-    // object-fit: contain;
-
-    // display: block;
-    // width: min-content;
-    height: 500px;
-    object-fit: contain;
+  height: 500px;
+  object-fit: contain;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+  width: 30px; // You can adjust the size based on smaller screens
+  height: 30px;
+}
+
+.swiper-button-prev {
+  left: 250px; // Default positioning for larger screens
+}
+
+.swiper-button-next {
+  right: 250px; // Default positioning for larger screens
 }
 
 .swiper-pagination-bullet-active {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Media Queries for Responsiveness */
+
+/* Large tablets and small desktops */
+@media (max-width: 1200px) {
+  .swiper-button-prev {
+    left: 150px; // Adjust the position for medium screens
+  }
+
+  .swiper-button-next {
+    right: 150px; // Adjust the position for medium screens
+  }
+
+  .swiper {
+    width: 80%; // Adjust width to make the swiper fit better
+  }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .swiper-button-prev {
+    left: 100px; // Adjust the position for tablets
+  }
+
+  .swiper-button-next {
+    right: 100px; // Adjust the position for tablets
+  }
+
+  .swiper {
+    width: 85%; // Adjust swiper width for tablets
+  }
+
+  .swiper-img {
+    height: 400px; // Adjust image size for smaller devices
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .swiper-button-prev {
+    left: 50px; // Adjust the position for mobile screens
+  }
+
+  .swiper-button-next {
+    right: 50px; // Adjust the position for mobile screens
+  }
+
+  .swiper {
+    width: 90%; // Full width for mobile devices
+  }
+
+  .swiper-img {
+    height: 300px; // Adjust image size for mobile
+  }
+}
+
+/* Extra small mobile screens */
+@media (max-width: 480px) {
+  .swiper-button-prev {
+    left: 20px; // Further adjust for very small screens
+  }
+
+  .swiper-button-next {
+    right: 20px; // Further adjust for very small screens
+  }
+
+  .swiper-img {
+    height: 250px; // Make image smaller for very small screens
+  }
 }
