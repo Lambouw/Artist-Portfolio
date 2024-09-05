@@ -14,33 +14,6 @@ import "../../dist/landing.css";
 import LandingData from "../../assets/data/landingdata.json";
 
 const Landing = () => {
-  const [slidesPerView, setSlidesPerView] = useState(1);
-
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     if (window.innerWidth < 700) {
-  //       setSlidesPerView(1);
-  //     } else if (window.innerWidth >= 700 && window.innerWidth < 1000) {
-  //       setSlidesPerView(2);
-  //     } else if (window.innerWidth >= 1000 && window.innerWidth < 1300) {
-  //       setSlidesPerView(3);
-  //     } else if (window.innerWidth >= 1300 && window.innerWidth < 1600) {
-  //       setSlidesPerView(4);
-  //     } else {
-  //       setSlidesPerView(5);
-  //     }
-  //   };
-
-  //   // Initial call to set slidesPerView based on initial viewport width
-  //   handleResize();
-
-  //   // Event listener for window resize
-  //   window.addEventListener("resize", handleResize);
-
-  //   // Cleanup function to remove event listener
-  //   return () => window.removeEventListener("resize", handleResize);
-  // }, []); // Empty dependency array ensures that this effect runs only once after initial render
-
   return (
     <div className="landing">
       <div className="upper-spacer"></div>
@@ -50,7 +23,7 @@ const Landing = () => {
         pagination={{
           clickable: true,
         }}
-        slidesPerView={slidesPerView}
+        slidesPerView={1}
         loop={true}
         // centeredSlides={true}
         spaceBetween={100}
