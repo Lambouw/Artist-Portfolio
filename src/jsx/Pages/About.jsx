@@ -9,6 +9,7 @@ const About = () => {
       <div className="about--content">
         <img
           className="about--content--image"
+          loading="lazy"
           alt="Ingrid Lindemann"
           src="/images/personal/me.jpg"
         ></img>
