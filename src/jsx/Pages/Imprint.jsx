@@ -8,33 +8,37 @@ const Imprint = () => {
       <div className="imprint">
         <h1 className="imprint--title">Impressum</h1>
         <section className="imprint--contact">
-          <p>Angaben gemäß § 5 TMG:</p>
-          <div className="spacer-l"></div>
-          <p>Name und Anschrift der Künstlerin:</p>
-          <div className="spacer-m"></div>
+          <h2 className="imprint--header">Angaben gemäß § 5 TMG:</h2>
+
+          <p className="imprint--header-small">
+            Name und Anschrift der Künstlerin:
+          </p>
+
           <p>Ingrid Lindemann</p>
           <p>Loeweweg 3</p>
           <p>71397 Leutenbach</p>
           <p>Deutschland</p>
-          <div className="spacer-l"></div>
-          <p>Kontakt:</p>
-          <div className="spacer-m"></div>
+
+          <p className="imprint--header-small">Kontakt:</p>
+
           <p>
-            E-Mail:&nbsp;&nbsp;
+            E-Mail:&nbsp;
             <a className="extern" href="mailto:kunst.lindemann@gmail.com">
               kunst.lindemann@gmail.com
             </a>
           </p>
-          <div className="spacer-l"></div>
-          <p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</p>
-          <div className="spacer-m"></div>
+
+          <p className="imprint--header-small">
+            Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+          </p>
+
           <p>Ingrid Lindemann</p>
           <p>Loeweweg 3</p>
           <p>71397 Leutenbach</p>
           <p>Deutschland</p>
-          <div className="spacer-l"></div>
+
           <p>
-            Quelle:&nbsp;&nbsp;
+            Quelle:&nbsp;
             <a
               className="extern"
               target="_blank"
@@ -46,7 +50,7 @@ const Imprint = () => {
           </p>
         </section>
         <h2 className="imprint--header">Haftung für Inhalte:</h2>
-        <p className="imprint--text">
+        <p className="imprint--text margin-bottom">
           Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte
           auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach
           §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
@@ -54,7 +58,6 @@ const Imprint = () => {
           überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige
           Tätigkeit hinweisen.
         </p>
-        <div className="spacer-m"></div>
         <p className="imprint--text">
           Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
           Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.
@@ -64,7 +67,7 @@ const Imprint = () => {
           umgehend entfernen.
         </p>
         <h2 className="imprint--header">Haftung für Links:</h2>
-        <p className="imprint--text">
+        <p className="imprint--text margin-bottom">
           Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren
           Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
           fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
@@ -73,7 +76,6 @@ const Imprint = () => {
           Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige
           Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
         </p>
-        <div className="spacer-m"></div>
         <p className="imprint--text">
           Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch
           ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei
@@ -81,7 +83,7 @@ const Imprint = () => {
           umgehend entfernen.
         </p>
         <h2 className="imprint--header">Urheberrecht:</h2>
-        <p className="imprint--text">
+        <p className="imprint--text margin-bottom">
           Die durch die Seitenbetreiberin erstellten Inhalte und Werke auf
           diesen Seiten unterliegen dem deutschen Urheberrecht. Die
           Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung
@@ -89,7 +91,6 @@ const Imprint = () => {
           Zustimmung der Künstlerin. Downloads und Kopien dieser Seite sind nur
           für den privaten, nicht kommerziellen Gebrauch gestattet.
         </p>
-        <div className="spacer-m"></div>
         <p className="imprint--text">
           Soweit die Inhalte auf dieser Seite nicht von der Betreiberin erstellt
           wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden

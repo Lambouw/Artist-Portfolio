@@ -1,15 +1,32 @@
 .data {
-    width: 66%;
-    margin: 0 auto;
+  width: 66%;
+  margin: 0 auto;
 
-    &--title {
-        padding-top: 2rem;
-        padding-bottom: 1.4rem;
-    }
+  &--title {
+    padding-top: 2rem;
+  }
 
-    &--header {
-        font-size: 1.2rem;
-        padding-top: 2rem;
-        padding-bottom: 0.4rem;
-    }
+  &--header {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 0.4rem;
+  }
+
+  &--header-small {
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+  }
+
+  &--text {
+    text-align: justify;
+  }
+
+  &--list {
+    margin: 0.4rem 0rem 0.4rem 1.4rem;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 0.4rem;
 }
