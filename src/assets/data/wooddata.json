@@ -29,9 +29,9 @@
     },
     {
         "name": "Gegensätze - Vor und Zurück (Eibe Wachs-Öl 02/21)",
-        "src": "/images/wood/Gegensaetze_Vor_und_Zurück.jpeg",
-        "width": 2622,
-        "height": 3768,
+        "src": "/images/wood/Gegensaetze_Vor_und_Zurueck.jpeg",
+        "width": 3024,
+        "height": 4032,
         "dimensions": "47 * 25 * 26 cm"
     },
     {
@@ -98,11 +98,11 @@
         "dimensions": "80 * 27 * 23 cm"
     },
     {
-        "name": "Stehende (Kirsche Öl 04/18) BILD FEHLT / Bildmaße einstellen",
-        "src": "/images/wood/Zaertlichkeit.jpeg",
-        "width": 1286,
-        "height": 3481,
-        "dimensions": "80 cm hoch"
+        "name": "Stehende (Kirsche Öl 04/18)",
+        "src": "/images/wood/Stehende.jpeg",
+        "width": 3024,
+        "height": 4032,
+        "dimensions": "100 * 22 * 22 cm"
     },
     {
         "name": "Erstes Projekt in Holz (Apfel Öl 17)",

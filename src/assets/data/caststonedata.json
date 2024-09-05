@@ -22,23 +22,23 @@
     },
     {
         "name": "Sitzende (Betonguss Acrylfarbe 02/19)",
-        "src": "/images/caststone/Kleine_Sitzende.jpeg",
+        "src": "/images/caststone/Sitzende.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "29 * 16 * 16 cm"
     },
     {
-        "name": "Tanzende (Beton Spachteltechnik Datum fehlt!)",
-        "src": "/images/caststone/Stehende_1.jpeg",
+        "name": "Tanzende (Beton Spachteltechnik 02/19)",
+        "src": "/images/caststone/Tanzende.jpeg",
         "width": 3024,
         "height": 4032,
         "dimensions": "38 * 12 * 12 cm"
     },
     {
         "name": "Stehende 3 (Bronzeguss 02/19)",
-        "src": "/images/caststone/Stehende_2.jpeg",
+        "src": "/images/caststone/Stehende_3.jpeg",
         "width": 2448,
         "height": 3264,
-        "dimensions": "ca 30 cm hoch"
+        "dimensions": "27 * 8 * 7 cm"
     }
 ]
