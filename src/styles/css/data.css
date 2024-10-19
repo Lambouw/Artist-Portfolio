@@ -1,0 +1,27 @@
+.data {
+  width: 66%;
+  margin: 0 auto;
+}
+.data--title {
+  padding-top: 2rem;
+}
+.data--header {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 0.4rem;
+}
+.data--header-small {
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
+.data--text {
+  text-align: justify;
+}
+.data--list {
+  margin: 0.4rem 0rem 0.4rem 1.4rem;
+}
+
+.margin-bottom {
+  margin-bottom: 0.4rem;
+}/*# sourceMappingURL=data.css.map */

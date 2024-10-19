@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+
+  text-align: center;
+
+  &--container {
+    &--item {
+      text-decoration: none;
+      padding: 0 0.3rem;
+    }
+
+    &--item:hover {
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+}

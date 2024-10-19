@@ -1,0 +1,26 @@
+.pictureitem--container {
+  padding: 0 0.4rem 0 0.4rem;
+  max-width: 100%;
+}
+.pictureitem--container--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pictureitem--container--item--img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+.pictureitem--container--item--img:hover {
+  cursor: pointer;
+}
+.pictureitem--container--item--description {
+  text-align: center;
+}
+.pictureitem--container--item--description--title {
+  padding-top: 0.3rem;
+  font-size: 1.2rem;
+}
+.pictureitem--container--item--description--dimensions {
+  padding-top: 0.3rem;
+}/*# sourceMappingURL=pictureitem.css.map */

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  color: rgba(0, 0, 0, 0.8);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.extern {
+  color: rgb(200, 100, 100);
+  text-decoration: none;
+}
+.extern:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: underline;
+}/*# sourceMappingURL=basics.css.map */

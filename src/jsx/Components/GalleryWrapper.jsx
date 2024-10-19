@@ -3,7 +3,7 @@ import { Gallery } from 'react-photoswipe-gallery'
 
 import 'photoswipe/dist/photoswipe.css'
 
-import '../../dist/gallerywrapper.css';
+import '../../styles/css/gallerywrapper.css';
 
 const GalleryWrapper = ({ content }) => {
     return (

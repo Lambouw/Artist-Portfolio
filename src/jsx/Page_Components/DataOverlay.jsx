@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../dist/dataOverlay.css';
+import '../../styles/css/dataOverlay.css';
 
 const DataOverlay = () => {
     return (

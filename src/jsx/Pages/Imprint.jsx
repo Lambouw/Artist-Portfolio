@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../dist/imprint.css";
+import "../../styles/css/imprint.css";
 
 const Imprint = () => {
   return (

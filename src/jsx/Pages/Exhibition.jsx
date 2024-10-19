@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../dist/exhibition.css';
+import "../../styles/css/exhibition.css";
 
 import ExhibitionYear from '../Components/ExhibitionYear';
 

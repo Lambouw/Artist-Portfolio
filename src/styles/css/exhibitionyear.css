@@ -1,0 +1,18 @@
+.exhibitionyear--container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+.exhibitionyear--container--year {
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .exhibitionyear--container {
+    flex-direction: column;
+  }
+  .exhibitionyear--container--year {
+    margin-bottom: 1rem;
+  }
+}/*# sourceMappingURL=exhibitionyear.css.map */

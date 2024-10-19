@@ -1,21 +1,18 @@
 [
   {
     "name": "Faltenstein 1 (06/19)",
-    "src": "/images/stone/alabaster/Faltenstein_1.jpeg",
     "width": 4032,
     "height": 3024,
     "dimensions": "17 * 21 * 17 cm"
   },
   {
     "name": "Faltenstein 2 (06/19)",
-    "src": "/images/stone/alabaster/Faltenstein_2.jpeg",
     "width": 4032,
     "height": 3024,
     "dimensions": "12 * 16 * 13 cm"
   },
   {
     "name": "Spannungsfeld (05/17)",
-    "src": "/images/stone/alabaster/Spannungsfeld.jpeg",
     "width": 480,
     "height": 640,
     "dimensions": "32 * 15 * 19 cm"

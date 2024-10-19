@@ -1,23 +1,20 @@
 [
-    {
-        "name": "Mädchen im Wind (02/20)",
-        "src": "/images/paintings/Maedchen_im_Wind.jpeg",
-        "width": 1691,
-        "height": 2118,
-        "dimensions": "50 * 40 cm"
-    },
-    {
-        "name": "Frühling (02/20)",
-        "src": "/images/paintings/Fruehling.jpeg",
-        "width": 1805,
-        "height": 2407,
-        "dimensions": "70 * 50 cm"
-    },
-    {
-        "name": "Sommer (02/20)",
-        "src": "/images/paintings/Sommer.jpeg",
-        "width": 2215,
-        "height": 3214,
-        "dimensions": "70 * 50 cm"
-    }
+  {
+    "name": "Mädchen im Wind (02/20)",
+    "width": 1691,
+    "height": 2118,
+    "dimensions": "50 * 40 cm"
+  },
+  {
+    "name": "Frühling (02/20)",
+    "width": 1805,
+    "height": 2407,
+    "dimensions": "70 * 50 cm"
+  },
+  {
+    "name": "Sommer (02/20)",
+    "width": 2215,
+    "height": 3214,
+    "dimensions": "70 * 50 cm"
+  }
 ]

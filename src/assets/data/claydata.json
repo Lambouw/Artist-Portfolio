@@ -1,35 +1,30 @@
 [
   {
     "name": "Selbstportrait (20)",
-    "src": "/images/clay/Selbstportrait.jpeg",
     "width": 3024,
     "height": 4032,
     "dimensions": "31 * 26 * 20 cm"
   },
   {
     "name": "Sitzende 2 (01/23)",
-    "src": "/images/clay/Sitzende_2.jpeg",
     "width": 3024,
     "height": 4032,
     "dimensions": "25 * 15 * 17 cm"
   },
   {
     "name": "Liegende 2 (01/23)",
-    "src": "/images/clay/Liegende_2.jpeg",
     "width": 3024,
     "height": 4032,
     "dimensions": "11 * 30 * 13 cm"
   },
   {
     "name": "Sitzende 1 (01/19)",
-    "src": "/images/clay/Sitzende_1.jpeg",
     "width": 3024,
     "height": 4032,
     "dimensions": "24 * 33 * 17 cm"
   },
   {
     "name": "Liegende 1 (01/18)",
-    "src": "/images/clay/Liegende_1.jpeg",
     "width": 4032,
     "height": 3024,
     "dimensions": "10 * 37 * 17 cm"

@@ -1,0 +1,104 @@
+.contact {
+  width: 66%;
+  margin: 0 auto;
+}
+.contact--title {
+  padding-top: 2rem;
+  padding-bottom: 1.4rem;
+}
+.contact--formcontainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40rem;
+}
+.contact--formcontainer--name {
+  margin-bottom: 0.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: rgb(230, 230, 230);
+  padding: 0.3rem 0 0.3rem 0.2rem;
+  align-content: end;
+}
+.contact--formcontainer--name:focus {
+  outline-color: rgba(0, 0, 0, 0.8);
+}
+.contact--formcontainer--firstname {
+  margin-bottom: 0.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: rgb(230, 230, 230);
+  padding: 0.3rem 0 0.3rem 0.2rem;
+}
+.contact--formcontainer--firstname:focus {
+  outline-color: rgba(0, 0, 0, 0.8);
+}
+.contact--formcontainer--mail {
+  margin-bottom: 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: rgb(230, 230, 230);
+  padding: 0.3rem 0 0.3rem 0.2rem;
+}
+.contact--formcontainer--mail:focus {
+  outline-color: rgba(0, 0, 0, 0.8);
+}
+.contact--formcontainer--subject {
+  margin-bottom: 0.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: rgb(230, 230, 230);
+  padding: 0.3rem 0 0.3rem 0.2rem;
+}
+.contact--formcontainer--subject:focus {
+  outline-color: rgba(0, 0, 0, 0.8);
+}
+.contact--formcontainer--message {
+  height: 16rem;
+  margin-bottom: 0.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: rgb(230, 230, 230);
+  padding: 0.3rem 0 0.3rem 0.2rem;
+}
+.contact--formcontainer--message:focus {
+  outline-color: rgba(0, 0, 0, 0.8);
+}
+.contact--formcontainer--datawrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0.3rem 0 0.3rem 0.3rem;
+}
+.contact--formcontainer--datawrapper--checkbox {
+  margin-right: 0.3rem;
+}
+.contact--formcontainer--datawrapper--text {
+  text-align: left;
+}
+.contact--formcontainer--datawrapper--text--button {
+  text-decoration: none;
+}
+.contact--formcontainer--datawrapper--text--button:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+.contact--formcontainer--button {
+  align-self: flex-start;
+  width: 6rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.3rem 0;
+}
+.contact--formcontainer--button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.contact--formcontainer--button.disabled {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.contact--formcontainer--button.disabled:hover {
+  cursor: default;
+}/*# sourceMappingURL=contact.css.map */

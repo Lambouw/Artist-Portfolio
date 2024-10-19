@@ -1,0 +1,12 @@
+.dataoverlay {
+  z-index: 1;
+  background-color: rgb(58, 58, 58);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+.dataoverlay--container {
+  color: white;
+}/*# sourceMappingURL=dataOverlay.css.map */

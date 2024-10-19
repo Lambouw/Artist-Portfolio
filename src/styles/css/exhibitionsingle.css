@@ -1,0 +1,27 @@
+.exhibitionsingle--container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+.exhibitionsingle--container--date {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  min-width: 8rem;
+  box-sizing: content-box;
+}
+.exhibitionsingle--container--wrapper--name {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.exhibitionsingle--container--wrapper--location {
+  margin-bottom: 0.2rem;
+}
+@media (max-width: 768px) {
+  .exhibitionsingle--container {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=exhibitionsingle.css.map */

@@ -1,7 +1,7 @@
 import React from "react";
 import { Item } from "react-photoswipe-gallery";
 
-import "../../dist/pictureitem.css";
+import "../../styles/css/pictureitem.css";
 
 const PictureItem = ({ item, image }) => {
   return (
@@ -16,7 +16,6 @@ const PictureItem = ({ item, image }) => {
           <span className="pictureitem--container--item">
             <img
               className="pictureitem--container--item--img"
-              loading="lazy"
               ref={ref}
               onClick={open}
               src={image}

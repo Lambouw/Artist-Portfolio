@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { NavLink } from 'react-router-dom';
 
-import '../../dist/contact.css';
+import "../../styles/css/contact.css";
 
 const Contact = () => {
     const form = useRef();

@@ -1,0 +1,30 @@
+.art {
+  width: 66%;
+  margin: 0 auto;
+}
+.art--title {
+  padding-top: 2rem;
+  padding-bottom: 1.4rem;
+}
+.art--content {
+  display: flex;
+  flex-direction: row;
+}
+.art--content--textcontainer {
+  margin-right: 4rem;
+  text-align: justify;
+}
+.art--content--textcontainer--margintop {
+  margin-top: 0.6rem;
+}
+.art--content--image {
+  width: 28rem;
+  height: 100%;
+}
+.art--header {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+.art--text {
+  padding-top: 0.4rem;
+}/*# sourceMappingURL=art.css.map */

@@ -1,114 +1,98 @@
 [
-    {
-        "name": "Mädchen im Wald (Nuss 10/23)",
-        "src": "/images/wood/Maedchen_im_Wald.jpeg",
-        "width": 1534,
-        "height": 2904,
-        "dimensions": "31 * 14 * 5 cm"
-    },
-    {
-        "name": "Rising Up (Esche Wachs-Öl 03/22)",
-        "src": "/images/wood/Rising_Up.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "35 * 30 * 14 cm"
-    },
-    {
-        "name": "Gegensätze - Liebe und Hass (Linde Wachs-Öl 06/21)",
-        "src": "/images/wood/Gegensaetze_Liebe_und_Hass.jpeg",
-        "width": 1461,
-        "height": 3244,
-        "dimensions": "74 * 25 * 24 cm"
-    },
-    {
-        "name": "Gegensätze - Festhalten und Loslassen (Weide Wachs-Öl 04/21)",
-        "src": "/images/wood/Gegensaetze_Festhalten_und_Loslassen.jpeg",
-        "width": 1842,
-        "height": 3579,
-        "dimensions": "73 * 36 * 20 cm"
-    },
-    {
-        "name": "Gegensätze - Vor und Zurück (Eibe Wachs-Öl 02/21)",
-        "src": "/images/wood/Gegensaetze_Vor_und_Zurueck.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "47 * 25 * 26 cm"
-    },
-    {
-        "name": "Leidenschaft (Moorbirke Wachs-Öl 09/20)",
-        "src": "/images/wood/Leidenschaft.jpeg",
-        "width": 1651,
-        "height": 3606,
-        "dimensions": "65 * 30 * 28 cm"
-    },
-    {
-        "name": "Spiegel der Vergangenheit (Linde lackiert 07/20)",
-        "src": "/images/wood/Spiegel_der_Vergangenheit.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "49 * 26 * 18 cm"
-    },
-    {
-        "name": "Fanal (Linde lackiert 07/20)",
-        "src": "/images/wood/Fanal.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "48 * 20 * 20 cm"
-    },
-    {
-        "name": "Tango (Moorbirke lackiert 05/19)",
-        "src": "/images/wood/Tango.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "68 * 20 * 18 cm"
-    },
-    {
-        "name": "Flammenspiel 1 (Moorbirke lackiert 05/19)",
-        "src": "/images/wood/Flammenspiel_1.jpeg",
-        "width": 1224,
-        "height": 4032,
-        "dimensions": "84 * 17 * 14 cm / Maße fehlen in Word"
-    },
-    {
-        "name": "Flammenspiel 2 (Moorbirke lackiert 05/19)",
-        "src": "/images/wood/Flammenspiel_2.jpeg",
-        "width": 1583,
-        "height": 3649,
-        "dimensions": "55 * 15 * 12 cm"
-    },
-    {
-        "name": "Flammenspiel 3 (Moorbirke gewachst 05/19)",
-        "src": "/images/wood/Flammenspiel_3.jpeg",
-        "width": 1125,
-        "height": 3058,
-        "dimensions": "55 * 15 * 10 cm"
-    },
-    {
-        "name": "Gedankenwelt (Apfel lackiert 04/19)",
-        "src": "/images/wood/Gedankenwelt.jpeg",
-        "width": 1340,
-        "height": 3191,
-        "dimensions": "25 * 29 * 16 cm"
-    },
-    {
-        "name": "Zärtlichkeit (Moorbirke lackiert 10/18)",
-        "src": "/images/wood/Zaertlichkeit.jpeg",
-        "width": 1286,
-        "height": 3481,
-        "dimensions": "80 * 27 * 23 cm"
-    },
-    {
-        "name": "Stehende (Kirsche Öl 04/18)",
-        "src": "/images/wood/Stehende.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "100 * 22 * 22 cm"
-    },
-    {
-        "name": "Erstes Projekt in Holz (Apfel Öl 17)",
-        "src": "/images/wood/Erstes_Projekt_in_Holz.jpeg",
-        "width": 640,
-        "height": 480,
-        "dimensions": "30 * 23 * 19 cm"
-    }
+  {
+    "name": "Mädchen im Wald (Nuss 10/23)",
+    "width": 1534,
+    "height": 2904,
+    "dimensions": "31 * 14 * 5 cm"
+  },
+  {
+    "name": "Rising Up (Esche Wachs-Öl 03/22)",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": "35 * 30 * 14 cm"
+  },
+  {
+    "name": "Gegensätze - Liebe und Hass (Linde Wachs-Öl 06/21)",
+    "width": 1461,
+    "height": 3244,
+    "dimensions": "74 * 25 * 24 cm"
+  },
+  {
+    "name": "Gegensätze - Festhalten und Loslassen (Weide Wachs-Öl 04/21)",
+    "width": 1842,
+    "height": 3579,
+    "dimensions": "73 * 36 * 20 cm"
+  },
+  {
+    "name": "Gegensätze - Vor und Zurück (Eibe Wachs-Öl 02/21)",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": "47 * 25 * 26 cm"
+  },
+  {
+    "name": "Leidenschaft (Moorbirke Wachs-Öl 09/20)",
+    "width": 1651,
+    "height": 3606,
+    "dimensions": "65 * 30 * 28 cm"
+  },
+  {
+    "name": "Spiegel der Vergangenheit (Linde lackiert 07/20)",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": "49 * 26 * 18 cm"
+  },
+  {
+    "name": "Fanal (Linde lackiert 07/20)",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": "48 * 20 * 20 cm"
+  },
+  {
+    "name": "Tango (Moorbirke lackiert 05/19)",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": "68 * 20 * 18 cm"
+  },
+  {
+    "name": "Flammenspiel 1 (Moorbirke lackiert 05/19)",
+    "width": 1224,
+    "height": 4032,
+    "dimensions": "84 * 17 * 14 cm"
+  },
+  {
+    "name": "Flammenspiel 2 (Moorbirke lackiert 05/19)",
+    "width": 1583,
+    "height": 3649,
+    "dimensions": "55 * 15 * 12 cm"
+  },
+  {
+    "name": "Flammenspiel 3 (Moorbirke gewachst 05/19)",
+    "width": 1125,
+    "height": 3058,
+    "dimensions": "55 * 15 * 10 cm"
+  },
+  {
+    "name": "Gedankenwelt (Apfel lackiert 04/19)",
+    "width": 1340,
+    "height": 3191,
+    "dimensions": "25 * 29 * 16 cm"
+  },
+  {
+    "name": "Zärtlichkeit (Moorbirke lackiert 10/18)",
+    "width": 1286,
+    "height": 3481,
+    "dimensions": "80 * 27 * 23 cm"
+  },
+  {
+    "name": "Stehende (Kirsche Öl 04/18)",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": "100 * 22 * 22 cm"
+  },
+  {
+    "name": "Erstes Projekt in Holz (Apfel Öl 17)",
+    "width": 640,
+    "height": 480,
+    "dimensions": "30 * 23 * 19 cm"
+  }
 ]

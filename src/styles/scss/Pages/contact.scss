@@ -1,0 +1,125 @@
+.contact {
+  width: 66%;
+  margin: 0 auto;
+
+  &--title {
+    padding-top: 2rem;
+    padding-bottom: 1.4rem;
+  }
+
+  &--formcontainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 40rem;
+
+    &--name {
+      margin-bottom: 0.2rem;
+      border: none;
+      border-radius: 0.4rem;
+      background-color: rgba(230, 230, 230, 1);
+      padding: 0.3rem 0 0.3rem 0.2rem;
+      align-content: end;
+
+      &:focus {
+        outline-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    &--firstname {
+      margin-bottom: 0.2rem;
+      border: none;
+      border-radius: 0.4rem;
+      background-color: rgba(230, 230, 230, 1);
+      padding: 0.3rem 0 0.3rem 0.2rem;
+
+      &:focus {
+        outline-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    &--mail {
+      margin-bottom: 0.8rem;
+      border: none;
+      border-radius: 0.4rem;
+      background-color: rgba(230, 230, 230, 1);
+      padding: 0.3rem 0 0.3rem 0.2rem;
+
+      &:focus {
+        outline-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    &--subject {
+      margin-bottom: 0.2rem;
+      border: none;
+      border-radius: 0.4rem;
+      background-color: rgba(230, 230, 230, 1);
+      padding: 0.3rem 0 0.3rem 0.2rem;
+
+      &:focus {
+        outline-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    &--message {
+      height: 16rem;
+      margin-bottom: 0.2rem;
+      border: none;
+      border-radius: 0.4rem;
+      background-color: rgba(230, 230, 230, 1);
+      padding: 0.3rem 0 0.3rem 0.2rem;
+
+      &:focus {
+        outline-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    &--datawrapper {
+      display: flex;
+      flex-direction: row;
+      padding: 0.3rem 0 0.3rem 0.3rem;
+
+      &--checkbox {
+        margin-right: 0.3rem;
+      }
+
+      &--text {
+        text-align: left;
+
+        &--button {
+          text-decoration: none;
+        }
+
+        &--button:hover {
+          color: rgba(0, 0, 0, 0.6);
+        }
+      }
+    }
+
+    &--button {
+      align-self: flex-start;
+      width: 6rem;
+      border: none;
+      border-radius: 0.4rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 0.3rem 0;
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+    }
+
+    &--button.disabled {
+      background-color: rgba(0, 0, 0, 0.3);
+
+      &:hover {
+        cursor: default;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../dist/data.css";
+import "../../styles/css/data.css";
 
 const Data = () => {
   return (
@@ -28,7 +28,7 @@ const Data = () => {
         Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website
         ist:
       </p>
-      <p className="data--text">Maria Musterfrau</p>
+      <p className="data--text">Ingrid Lindemann</p>
       <p className="data--text">Loeweweg 1</p>
       <p className="data--text">71397 Leutenbach</p>
       <p className="data--text margin-bottom">Deutschland</p>

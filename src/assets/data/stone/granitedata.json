@@ -1,9 +1,8 @@
 [
-    {
-        "name": "Granit (04/22)",
-        "src": "/images/stone/granite/Granite.jpeg",
-        "width": 3024,
-        "height": 4032,
-        "dimensions": "124 * 63 * 30 cm"
-    }
+  {
+    "name": "Granit (04/22)",
+    "width": 3024,
+    "height": 4032,
+    "dimensions": "124 * 63 * 30 cm"
+  }
 ]
