@@ -29,7 +29,7 @@ const Data = () => {
         ist:
       </p>
       <p className="data--text">Ingrid Lindemann</p>
-      <p className="data--text">Loeweweg 1</p>
+      <p className="data--text">Loeweweg 3</p>
       <p className="data--text">71397 Leutenbach</p>
       <p className="data--text margin-bottom">Deutschland</p>
       <p className="data--text margin-bottom">
