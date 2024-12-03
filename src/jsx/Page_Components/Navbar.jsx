@@ -1,14 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 
 import Hamburger from "hamburger-react";
 
-import '../../styles/css/navbar.css';
+import "../../styles/css/navbar.css";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isSubDropdownOpen, setIsSubDropdownOpen] = useState(false);
   const [hamMenuVisibility, setHamMenuVisibility] = useState(false);
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    navRef.current.classList.add("slide-in-nav");
+  }, []);
 
   const showDropdown = () => {
     setIsDropdownOpen(true);
@@ -33,7 +38,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar--container">
+      <div className="navbar--container" ref={navRef}>
         <div className="navbar--hamburger">
           <Hamburger
             toggled={hamMenuVisibility}

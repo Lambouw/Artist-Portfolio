@@ -7,6 +7,15 @@
     display: flex;
     justify-content: space-between;
 
+    transform: translateX(-20vw);
+    opacity: 0;
+    transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
+
+    &.slide-in-nav {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
     &--title {
       display: none;
 
