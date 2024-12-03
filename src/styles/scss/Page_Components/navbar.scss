@@ -12,7 +12,7 @@
     transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 
     &.slide-in-nav {
-      transform: translateX(0);
+      transform: none;
       opacity: 1;
     }
 
@@ -152,7 +152,7 @@
       transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 
       &.slide-in-nav {
-        transform: translateY(0);
+        transform: none;
         opacity: 1;
       }
     }

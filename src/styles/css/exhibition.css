@@ -10,6 +10,6 @@
   transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 }
 .exhibition--title.slide-in-exhibition-title {
-  transform: translateX(0);
+  transform: none;
   opacity: 1;
 }/*# sourceMappingURL=exhibition.css.map */

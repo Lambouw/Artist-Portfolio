@@ -9,7 +9,7 @@
     transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 
     &.slide-in-header {
-        transform: translateY(0);
+        transform: none;
         opacity: 1;
     }
 

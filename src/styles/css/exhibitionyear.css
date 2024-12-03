@@ -13,7 +13,7 @@
 }
 .exhibitionyear--container--year.slide-in-exhibition-year {
   opacity: 1;
-  transform: translateX(0);
+  transform: none;
 }
 @media (max-width: 768px) {
   .exhibitionyear--container {

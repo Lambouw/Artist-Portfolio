@@ -11,7 +11,7 @@
 }
 .exhibitionsingle--container.slide-in-exhibition-single {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
 }
 .exhibitionsingle--container--date {
   letter-spacing: 0.1rem;

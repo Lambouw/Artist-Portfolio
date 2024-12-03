@@ -13,7 +13,7 @@
     transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 
     &.slide-in-about-title {
-      transform: translateX(0);
+      transform: none;
       opacity: 1;
     }
   }
@@ -32,7 +32,7 @@
       transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 
       &.slide-in-about-image {
-        transform: translateX(0);
+        transform: none;
         opacity: 1;
       }
 
@@ -50,7 +50,7 @@
       transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 
       &.slide-in-about-text {
-        transform: translateX(0);
+        transform: none;
         opacity: 1;
       }
 

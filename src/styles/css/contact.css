@@ -10,7 +10,7 @@
   transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 }
 .contact--title.slide-in-contact-title {
-  transform: translateX(0);
+  transform: none;
   opacity: 1;
 }
 .contact--formcontainer {
@@ -25,7 +25,7 @@
   transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 }
 .contact--formcontainer.slide-in-contact-formcontainer {
-  transform: translateY(0);
+  transform: none;
   opacity: 1;
 }
 .contact--formcontainer--name {
