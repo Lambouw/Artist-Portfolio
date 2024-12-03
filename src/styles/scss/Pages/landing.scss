@@ -8,6 +8,15 @@
   min-height: 3.5rem;
 }
 
+.landing {
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+
+  &.fade-in-swiper {
+    opacity: 1;
+  }
+}
+
 .swiper {
   width: 70%;
   margin: 0 auto;

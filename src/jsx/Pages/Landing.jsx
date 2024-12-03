@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef } from "react";
 
 // Import Swiper React Components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import '../../styles/css/landing.css';
+import "../../styles/css/landing.css";
 
 import image1 from "../../assets/images/webp/wood/Gegensaetze_Festhalten_und_Loslassen.webp";
 import image2 from "../../assets/images/webp/wood/Leidenschaft.webp";
@@ -47,9 +47,14 @@ const Landing = () => {
     image15,
     image16,
   ];
+  const swiperRef = useRef();
+
+  useEffect(() => {
+    swiperRef.current.classList.add("fade-in-swiper");
+  }, []);
 
   return (
-    <div className="landing">
+    <div className="landing" ref={swiperRef}>
       <div className="upper-spacer"></div>
       <Swiper
         navigation={true}
