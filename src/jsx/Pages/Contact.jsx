@@ -13,6 +13,12 @@ const Contact = () => {
     const [message, setMessage] = useState('Nachricht');
     const [agree, setAgree] = useState(false);
     const [isDisabled, setIsDisabled] = useState(false);
+    const titleRef = useRef();
+
+    useEffect(() => {
+        titleRef.current.classList.add("slide-in-contact-title");
+        form.current.classList.add("slide-in-contact-formcontainer");
+    }, []);
 
     const checkSubmittable = () => {
         const isValid = name.trim().length !== 0 && firstName.trim().length !== 0 && email.trim().length !== 0 && subject.trim().length !== 0 && message.trim().length !== 0 && agree;
@@ -39,7 +45,7 @@ const Contact = () => {
 
     return (
         <div className="contact">
-            <h1 className="contact--title">Kontakt</h1>
+            <h1 className="contact--title" ref={titleRef}>Kontakt</h1>
             <form className="contact--formcontainer" ref={form} onSubmit={sendEmail}>
                 <input className="contact--formcontainer--name" type="text" name="name" placeholder="Nachname" onChange={(e) => setName(e.target.value)} />
                 <input className="contact--formcontainer--firstname" type="text" name="firstname" placeholder="Vorname" onChange={(e) => setFirstName(e.target.value)} />
