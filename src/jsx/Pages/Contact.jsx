@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import "../../styles/css/contact.css";
 
 const Contact = () => {
-    const form = useRef();
+    const form = useRef(null);
     const [name, setName] = useState('Nachname');
     const [firstName, setFirstName] = useState('Vorname');
     const [email, setEmail] = useState('E-Mail');
@@ -13,7 +13,7 @@ const Contact = () => {
     const [message, setMessage] = useState('Nachricht');
     const [agree, setAgree] = useState(false);
     const [isDisabled, setIsDisabled] = useState(false);
-    const titleRef = useRef();
+    const titleRef = useRef(null);
 
     useEffect(() => {
         titleRef.current.classList.add("slide-in-contact-title");

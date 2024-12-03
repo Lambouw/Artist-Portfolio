@@ -47,7 +47,7 @@ const Landing = () => {
     image15,
     image16,
   ];
-  const swiperRef = useRef();
+  const swiperRef = useRef(null);
 
   useEffect(() => {
     swiperRef.current.classList.add("fade-in-swiper");

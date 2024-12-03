@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import "../../styles/css/exhibitionsingle.css";
 
 const ExhibitionSingle = ({ exhibition }) => {
-  const exhibitionSingleRef = useRef();
+  const exhibitionSingleRef = useRef(null);
 
   useEffect(() => {
     exhibitionSingleRef.current.classList.add("slide-in-exhibition-single");

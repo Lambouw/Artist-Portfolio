@@ -5,7 +5,7 @@ import '../../styles/css/exhibitionyear.css';
 import ExhibitionSingle from './ExhibitionSingle';
 
 const ExhibitionYear = ({ year, data }) => {
-    const exhibitionYearRef = useRef();
+    const exhibitionYearRef = useRef(null);
 
     useEffect(() => {
         exhibitionYearRef.current.classList.add("slide-in-exhibition-year");

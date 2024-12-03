@@ -5,9 +5,9 @@ import "../../styles/css/about.css";
 import me from "../../assets/images/webp/personal/me.webp";
 
 const About = () => {
-  const titleRef = useRef();
-  const imageRef = useRef();
-  const textRef = useRef();
+  const titleRef = useRef(null);
+  const imageRef = useRef(null);
+  const textRef = useRef(null);
 
   useEffect(() => {
     titleRef.current.classList.add("slide-in-about-title");

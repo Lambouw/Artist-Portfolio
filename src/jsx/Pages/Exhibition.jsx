@@ -7,7 +7,7 @@ import ExhibitionYear from '../Components/ExhibitionYear';
 import ExhibitionData from '../../assets/data/exhibitiondata.json';
 
 const Exhibition = () => {
-    const titleRef = useRef();
+    const titleRef = useRef(null);
 
     useEffect(() => {
         titleRef.current.classList.add("slide-in-exhibition-title");
