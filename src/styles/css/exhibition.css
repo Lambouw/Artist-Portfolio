@@ -5,4 +5,11 @@
 .exhibition--title {
   padding-top: 2rem;
   padding-bottom: 1.4rem;
+  transform: translateX(-20vw);
+  opacity: 0;
+  transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
+}
+.exhibition--title.slide-in-exhibition-title {
+  transform: translateX(0);
+  opacity: 1;
 }/*# sourceMappingURL=exhibition.css.map */

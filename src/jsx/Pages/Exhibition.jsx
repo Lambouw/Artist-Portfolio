@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 import "../../styles/css/exhibition.css";
 
@@ -7,6 +7,12 @@ import ExhibitionYear from '../Components/ExhibitionYear';
 import ExhibitionData from '../../assets/data/exhibitiondata.json';
 
 const Exhibition = () => {
+    const titleRef = useRef();
+
+    useEffect(() => {
+        titleRef.current.classList.add("slide-in-exhibition-title");
+    }, []);
+
     const sortExhibitionsByDate = (exhibitions) => {
         return exhibitions.sort((a, b) => {
             const dateA = new Date(a.month);
@@ -26,7 +32,7 @@ const Exhibition = () => {
 
     return (
         <div className="exhibition">
-            <h1 className="exhibition--title">Ausstellungen</h1>
+            <h1 className="exhibition--title" ref={titleRef}>Ausstellungen</h1>
             <div>{content}</div>
         </div>
     );

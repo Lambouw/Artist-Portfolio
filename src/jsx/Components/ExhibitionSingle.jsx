@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 import "../../styles/css/exhibitionsingle.css";
 
 const ExhibitionSingle = ({ exhibition }) => {
-  console.log("exhibition: " + exhibition);
+  const exhibitionSingleRef = useRef();
+
+  useEffect(() => {
+    exhibitionSingleRef.current.classList.add("slide-in-exhibition-single");
+  }, []);
 
   return (
-    <div className="exhibitionsingle--container">
+    <div className="exhibitionsingle--container" ref={exhibitionSingleRef}>
       <div className="exhibitionsingle--container--date">
         {exhibition.month}
       </div>

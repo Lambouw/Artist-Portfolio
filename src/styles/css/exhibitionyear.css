@@ -7,6 +7,13 @@
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   font-weight: 500;
+  opacity: 0;
+  transform: translateX(-20vw);
+  transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
+}
+.exhibitionyear--container--year.slide-in-exhibition-year {
+  opacity: 1;
+  transform: translateX(0);
 }
 @media (max-width: 768px) {
   .exhibitionyear--container {
