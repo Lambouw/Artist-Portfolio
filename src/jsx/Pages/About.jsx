@@ -1,20 +1,33 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 import "../../styles/css/about.css";
 
 import me from "../../assets/images/webp/personal/me.webp";
 
 const About = () => {
+  const titleRef = useRef();
+  const imageRef = useRef();
+  const textRef = useRef();
+
+  useEffect(() => {
+    titleRef.current.classList.add("slide-in-about-title");
+    imageRef.current.classList.add("slide-in-about-image");
+    textRef.current.classList.add("slide-in-about-text");
+  }, []);
+
   return (
     <div className="about">
-      <h1 className="about--title">Über mich</h1>
+      <h1 className="about--title" ref={titleRef}>
+        Über mich
+      </h1>
       <div className="about--content">
         <img
           className="about--content--image"
           alt="Ingrid Lindemann"
           src={me}
+          ref={imageRef}
         ></img>
-        <div className="about--content--textcontainer">
+        <div className="about--content--textcontainer" ref={textRef}>
           <p className="about--content--textcontainer--text">
             Meine Leidenschaft für die Bildhauerei habe ich bereits in meiner
             Kindheit entdeckt, als ich erste Versuche mit Ton Modelliermassen
