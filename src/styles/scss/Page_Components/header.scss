@@ -4,6 +4,15 @@
     text-align: center;
     padding: 4rem 0 2rem 0;
 
+    transform: translateY(-20vh);
+    opacity: 0;
+    transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
+
+    &.slide-in-header {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
     &--item {
         font-size: 4rem;
         font-weight: 200;

@@ -112,6 +112,15 @@
   .navbar {
     width: 100%;
   }
+  .navbar--container {
+    transform: translateX(0) translateY(-10vh);
+    opacity: 0;
+    transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
+  }
+  .navbar--container.slide-in-nav {
+    transform: translateY(0);
+    opacity: 1;
+  }
   .navbar--title {
     display: block;
   }

@@ -146,6 +146,17 @@
   @include md {
     width: 100%;
 
+    &--container {
+      transform: translateX(0) translateY(-10vh);
+      opacity: 0;
+      transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
+
+      &.slide-in-nav {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
     &--title {
       display: block;
     }
