@@ -1,32 +1,84 @@
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
 .pictureitem--container {
-    padding: 0 0.4rem 0 0.4rem;
-    max-width: 100%;
-    
-    &--item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  padding: 0 0.4rem 0 0.4rem;
+  max-width: 100%;
+  height: min-content;
 
-        &--img {
-            max-width: 100%;
-            border-radius: 0.5rem;
+  &--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 
-            &:hover {
-                cursor: pointer;
-            }
-        }
-    
-        &--description {
-            text-align: center;
+    &--shimmer {
+      width: 100%;
+      height: 300px;
+      background: linear-gradient(
+        90deg,
+       
+        rgb(58, 58, 58, 0.1) 0%,
+        rgb(58, 58, 58, 0.2) 50%,
+        rgb(58, 58, 58, 0.1) 100%
+      );
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite linear;
+      border-radius: 0.5rem;
 
-            &--title {
-                padding-top: 0.3rem;
-                font-size: 1.2rem;
-            }
+      transition: opacity 0.3s ease;
+      opacity: 1;
 
-            &--dimensions {
-                padding-top: 0.3rem;
-            }
-        }
+      &.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
     }
+
+    &--img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+
+      height: 0;
+      opacity: 0;
+      transition: opacity 0.3s ease 0.3s;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.visible {
+        height: auto;
+        opacity: 1;
+      }
+    }
+
+    &--description {
+      text-align: center;
+
+      height: 0;
+      opacity: 0;
+      transition: opacity 0.3s ease 0.3s;
+
+      &.visible {
+        height: auto;
+        opacity: 1;
+      }
+
+      &--title {
+        padding-top: 0.3rem;
+        font-size: 1.2rem;
+      }
+
+      &--dimensions {
+        padding-top: 0.3rem;
+      }
+    }
+  }
 }

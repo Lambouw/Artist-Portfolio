@@ -1,21 +1,60 @@
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
 .pictureitem--container {
   padding: 0 0.4rem 0 0.4rem;
   max-width: 100%;
+  height: -moz-min-content;
+  height: min-content;
 }
 .pictureitem--container--item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+}
+.pictureitem--container--item--shimmer {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(90deg, rgba(58, 58, 58, 0.1) 0%, rgba(58, 58, 58, 0.2) 50%, rgba(58, 58, 58, 0.1) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 0.5rem;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+.pictureitem--container--item--shimmer.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 .pictureitem--container--item--img {
   max-width: 100%;
   border-radius: 0.5rem;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease 0.3s;
 }
 .pictureitem--container--item--img:hover {
   cursor: pointer;
 }
+.pictureitem--container--item--img.visible {
+  height: auto;
+  opacity: 1;
+}
 .pictureitem--container--item--description {
   text-align: center;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease 0.3s;
+}
+.pictureitem--container--item--description.visible {
+  height: auto;
+  opacity: 1;
 }
 .pictureitem--container--item--description--title {
   padding-top: 0.3rem;
