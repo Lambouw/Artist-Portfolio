@@ -34,8 +34,8 @@ const Data = () => {
       <p className="data--text margin-bottom">Deutschland</p>
       <p className="data--text margin-bottom">
         E-Mail:&nbsp;
-        <a className="extern" href="mailto:kunst.lindemann@gmail.com">
-          kunst.lindemann@gmail.com
+        <a className="extern" href="mailto:kunst@ilindemann.com">
+          kunst@ilindemann.com
         </a>
       </p>
       <p className="data--text">
