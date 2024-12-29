@@ -25,7 +25,6 @@ const Exhibition = () => {
     let content = [];
     const years = Object.keys(ExhibitionData).sort((a, b) => b - a); // Sort years from last to first
     for (const year of years) {
-        console.log('year: ' + year);
         const sortedExhibitions = sortExhibitionsByDate(ExhibitionData[year]);
         content.push(<ExhibitionYear key={year} year={year} data={sortedExhibitions}></ExhibitionYear>);
     }
