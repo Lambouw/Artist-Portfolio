@@ -69,16 +69,14 @@ const Data = () => {
         sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns
         übermittelt. Dies sind:
       </p>
-      <p className="data--list">
-        <ul>
-          <li>Browsertyp und Browserversion</li>
-          <li>Verwendetes Betriebssystem</li>
-          <li>Referrer URL</li>
-          <li>Hostname des zugreifenden Rechners</li>
-          <li>Uhrzeit der Serveranfrage</li>
-          <li>IP-Adresse</li>
-        </ul>
-      </p>
+      <ul className="data--list">
+        <li>Browsertyp und Browserversion</li>
+        <li>Verwendetes Betriebssystem</li>
+        <li>Referrer URL</li>
+        <li>Hostname des zugreifenden Rechners</li>
+        <li>Uhrzeit der Serveranfrage</li>
+        <li>IP-Adresse</li>
+      </ul>
       <p className="data--text margin-bottom">
         Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht
         vorgenommen.

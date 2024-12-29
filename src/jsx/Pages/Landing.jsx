@@ -74,8 +74,8 @@ const Landing = () => {
         }}
         className="mySwiper"
       >
-        {landingImages.map((src) => (
-          <SwiperSlide>
+        {landingImages.map((src, index) => (
+          <SwiperSlide key={index}>
             <img className="swiper-img" rel="preload" alt="" src={src}></img>
           </SwiperSlide>
         ))}

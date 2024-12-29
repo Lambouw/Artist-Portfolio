@@ -13,7 +13,7 @@ const ExhibitionYear = ({ year, data }) => {
 
     // loop over data
     let content = [];
-    data.forEach(exhibition => content.push(<ExhibitionSingle exhibition={exhibition}></ExhibitionSingle>));
+    data.forEach(exhibition => content.push(<ExhibitionSingle key={exhibition.name} exhibition={exhibition}></ExhibitionSingle>));
 
     return (
         <div className='exhibitionyear--container'>

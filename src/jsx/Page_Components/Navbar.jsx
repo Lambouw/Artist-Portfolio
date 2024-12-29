@@ -250,10 +250,10 @@ const Navbar = () => {
               </div>
               <div style={{ display: "flex" }}>
                 <div
-                  style={{ "margin-left": "1.6rem" }}
+                  style={{ "marginLeft": "1.6rem" }}
                   className="navbar--hamburgermenu--dropdown--content--row--verticalline--big"
                 ></div>
-                <div style={{ "margin-left": "0.8rem" }}>
+                <div style={{ "marginLeft": "0.8rem" }}>
                   <div className="navbar--hamburgermenu--dropdown--content--row">
                     <div
                       className={`navbar--hamburgermenu--dropdown--content--row--verticalline ${
