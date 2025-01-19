@@ -1,75 +1,79 @@
 {
-    "2024": [
-        {
-            "name": "Diversity Week",
-            "location": "Catalent Germany Schorndorf",
-            "month": "07"
-        },
-        {
-            "name": "Pop Up",
-            "location": "Q Galerie Schorndorf",
-            "month": "06"
-        }
-    ],
-    "2022": [
-        {
-            "name": "Symposium mit Ausstellung",
-            "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
-            "month": "08"
-        },
-        {
-            "name": "Galerie Narrenwerk",
-            "location": "Schorndorf",
-            "month": "04-06"
-        },
-        {
-            "name": "Galerie Inspirationen",
-            "location": "Sulz Glatt",
-            "month": "06-10/23"
-        }
-    ],
-    "2021": [
-        {
-            "name": "Korber Kopf",
-            "location": "Bildhauerklasse Kunstschule unteres Remstal",
-            "month": "04-03/22"
-        }
-    ],
-    "2020": [
-        {
-            "name": "Symposium mit Ausstellung",
-            "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
-            "month": "08"
-        },
-        {
-            "name": "Arte Sono",
-            "location": "SI Centrum Stuttgart",
-            "month": "01"
-        }
-    ],
-    "2019": [
-        {
-            "name": "Künstlercafé",
-            "location": "Kulturinsel Bad Cannstatt",
-            "month": "09-10"
-        },
-        {
-            "name": "Facetten der Evolution",
-            "location": "Bildhauerklasse Kunstschule unteres Remstal (Remstal Gartenschau)",
-            "month": "05-10"
-        }
-    ],
-    "2018": [
-        {
-            "name": "Merry Christmas",
-            "location": "Galerie Forum Türk, Nürtingen",
-            "month": "11-12"
-        },
-        {
-            "name": "Symposium mit Ausstellung",
-            "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
-            "month": "08"
-        }
-    ]
+  "2024": [
+    {
+      "name": "Diversity Week",
+      "location": "Catalent Germany Schorndorf",
+      "month": "07"
+    },
+    {
+      "name": "Pop Up",
+      "location": "Q Galerie Schorndorf",
+      "month": "06"
+    }
+  ],
+  "2023": [
+    {
+        "name": "Himmelsspuren im Stein",
+        "location": "Bildungsreise Steinmetzschule Pučišća auf Brač, Kroatien",
+        "month": "07"
+    }
+  ],
+  "2022": [
+    {
+      "name": "Symposium mit Ausstellung",
+      "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
+      "month": "08"
+    },
+    {
+      "name": "Galerie Narrenwerk",
+      "location": "Schorndorf",
+      "month": "04-06"
+    },
+    {
+      "name": "Skulpturenpfad - Korber Kopf",
+      "location": "Bildhauerklasse Kunstschule unteres Remstal \"Erste Begegnungen\"",
+      "month": "04-03/23"
+    },
+    {
+      "name": "Galerie Inspirationen",
+      "location": "Sulz Glatt",
+      "month": "06-10/23"
+    }
+  ],
+  "2020": [
+    {
+      "name": "Symposium mit Ausstellung",
+      "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
+      "month": "08"
+    },
+    {
+      "name": "Arte Sono",
+      "location": "SI Centrum Stuttgart",
+      "month": "01"
+    }
+  ],
+  "2019": [
+    {
+      "name": "Künstlercafé",
+      "location": "Kulturinsel Bad Cannstatt",
+      "month": "09-10"
+    },
+    {
+      "name": "Facetten der Evolution",
+      "location": "Bildhauerklasse Kunstschule unteres Remstal (Remstal Gartenschau)",
+      "month": "05-10"
+    }
+  ],
+  "2018": [
+    {
+      "name": "Merry Christmas",
+      "location": "Galerie Forum Türk, Nürtingen",
+      "month": "11-12"
+    },
+    {
+      "name": "Symposium mit Ausstellung",
+      "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
+      "month": "08"
+    }
+  ]
 }
-
