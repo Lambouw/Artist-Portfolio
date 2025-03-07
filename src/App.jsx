@@ -20,6 +20,8 @@ import Painting from "./jsx/Pages/Art/Painting";
 import Exhibition from "./jsx/Pages/Exhibition";
 import About from "./jsx/Pages/About";
 import Contact from "./jsx/Pages/Contact";
+import Partners from "./jsx/Pages/Partners";
+
 import Imprint from "./jsx/Pages/Imprint";
 import Data from "./jsx/Pages/Data";
 
@@ -46,6 +48,8 @@ function App() {
             <Route path="/exhibition" element={<Exhibition />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/partners" element={<Partners />}></Route>
+
             <Route path="/imprint" element={<Imprint />}></Route>
             <Route path="/data" element={<Data />}></Route>
           </Routes>

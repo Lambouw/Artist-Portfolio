@@ -181,6 +181,15 @@ const Navbar = () => {
               Kontakt
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              onClick={hideBothDropdown}
+              className="navbar--item"
+              to="/partners"
+            >
+              Partner
+            </NavLink>
+          </li>
         </ul>
       </div>
       <div
@@ -454,6 +463,15 @@ const Navbar = () => {
           to="/contact"
         >
           Kontakt
+        </NavLink>
+        <NavLink
+          onClick={toggleHamMenuVis}
+          className={`navbar--hamburgermenu--item ${
+            hamMenuVisibility ? "show" : ""
+          }`}
+          to="/partners"
+        >
+          Partner
         </NavLink>
       </div>
     </nav>

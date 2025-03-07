@@ -1,0 +1,11 @@
+@import "../Basics/mixins";
+
+.partneritem {
+  display: flex;
+  flex-direction: column;
+
+  &--name {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,8 @@
+.partneritem {
+  display: flex;
+  flex-direction: column;
+}
+.partneritem--name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}/*# sourceMappingURL=partneritem.css.map */
