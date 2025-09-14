@@ -1,4 +1,27 @@
 {
+  "2025": [
+    {
+      "name": "Jahresausstellung 2025: \"Narrenschiff\"",
+      "location": "Q Galerie Schorndorf",
+      "month": "12-01/26"
+    },
+
+    {
+      "name": "Benefiz-Versteigerung des Kunstvereins",
+      "location": "KV67 Schorndorf",
+      "month": "11"
+    },
+    {
+      "name": "Kunstnacht Schorndorf: \"Die Neuen\"",
+      "location": "KV67 Schorndorf",
+      "month": "09"
+    },
+    {
+      "name": "Pop up",
+      "location": "Galerie Gagale's Winnenden",
+      "month": "06-08"
+    }
+  ],
   "2024": [
     {
       "name": "Diversity Week",
@@ -13,9 +36,9 @@
   ],
   "2023": [
     {
-        "name": "Himmelsspuren im Stein",
-        "location": "Bildungsreise Steinmetzschule Pučišća auf Brač, Kroatien",
-        "month": "07"
+      "name": "Himmelsspuren im Stein",
+      "location": "Bildungsreise Steinmetzschule Pučišća auf Brač, Kroatien",
+      "month": "07"
     }
   ],
   "2022": [
