@@ -5,7 +5,6 @@
       "location": "Q Galerie Schorndorf",
       "month": "12-01/26"
     },
-
     {
       "name": "Benefiz-Versteigerung des Kunstvereins",
       "location": "KV67 Schorndorf",
@@ -17,8 +16,8 @@
       "month": "09"
     },
     {
-      "name": "Pop up",
-      "location": "Galerie Gagale's Winnenden",
+      "name": "Pop up Galerie Gagale's",
+      "location": "Winnenden",
       "month": "06-08"
     }
   ],
@@ -29,7 +28,7 @@
       "month": "07"
     },
     {
-      "name": "Pop Up",
+      "name": "Pop Up (Kulturforum)",
       "location": "Q Galerie Schorndorf",
       "month": "06"
     }
