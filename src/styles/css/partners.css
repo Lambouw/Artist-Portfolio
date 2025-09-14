@@ -42,4 +42,9 @@
 .partners--content.slide-in-partners-content {
   transform: none;
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .partners {
+    width: 85%;
+  }
 }/*# sourceMappingURL=partners.css.map */

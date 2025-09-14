@@ -1,3 +1,5 @@
+@import "../Basics/mixins";
+
 .outer {
   width: 100%;
 }
@@ -24,6 +26,10 @@
 
   &--text {
     text-align: justify;
+  }
+
+  @include md {
+    width: 85%;
   }
 }
 

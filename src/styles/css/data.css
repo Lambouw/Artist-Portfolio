@@ -21,6 +21,11 @@
 .data--list {
   margin: 0.4rem 0rem 0.4rem 1.4rem;
 }
+@media (max-width: 768px) {
+  .data {
+    width: 85%;
+  }
+}
 
 .margin-bottom {
   margin-bottom: 0.4rem;

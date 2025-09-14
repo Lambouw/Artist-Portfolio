@@ -49,11 +49,6 @@
   text-align: justify;
 }
 @media (max-width: 768px) {
-  .about--content--textcontainer--text {
-    text-align: left;
-  }
-}
-@media (max-width: 768px) {
   .about--content--textcontainer {
     margin-left: 0;
     margin-top: 1rem;
@@ -70,6 +65,11 @@
 }
 .about--text {
   padding-top: 0.4rem;
+}
+@media (max-width: 768px) {
+  .about {
+    width: 85%;
+  }
 }
 
 .margintop {

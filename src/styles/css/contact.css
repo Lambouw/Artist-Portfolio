@@ -115,4 +115,9 @@
 }
 .contact--formcontainer--button.disabled:hover {
   cursor: default;
+}
+@media (max-width: 768px) {
+  .contact {
+    width: 85%;
+  }
 }/*# sourceMappingURL=contact.css.map */

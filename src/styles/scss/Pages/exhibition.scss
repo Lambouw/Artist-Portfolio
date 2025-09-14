@@ -1,3 +1,5 @@
+@import "../Basics/mixins";
+
 .exhibition {
   width: 66%;
   margin: 0 auto;
@@ -14,5 +16,9 @@
       transform: none;
       opacity: 1;
     }
+  }
+
+  @include md {
+    width: 85%;
   }
 }

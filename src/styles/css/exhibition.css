@@ -12,4 +12,9 @@
 .exhibition--title.slide-in-exhibition-title {
   transform: none;
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .exhibition {
+    width: 85%;
+  }
 }/*# sourceMappingURL=exhibition.css.map */

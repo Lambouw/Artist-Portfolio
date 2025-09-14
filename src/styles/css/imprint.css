@@ -22,6 +22,11 @@
 .imprint--text {
   text-align: justify;
 }
+@media (max-width: 768px) {
+  .imprint {
+    width: 85%;
+  }
+}
 
 .margin-bottom {
   margin-bottom: 0.4rem;

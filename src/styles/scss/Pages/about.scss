@@ -56,10 +56,6 @@
 
       &--text {
         text-align: justify;
-
-        @include md {
-          text-align: left;
-        }
       }
 
       @include md {
@@ -80,6 +76,10 @@
 
   &--text {
     padding-top: 0.4rem;
+  }
+
+  @include md {
+    width: 85%;
   }
 }
 

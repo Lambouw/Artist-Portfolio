@@ -51,4 +51,8 @@ $xsmall: 550px;
       opacity: 1;
     }
   }
+
+  @include md {
+    width: 85%;
+  }
 }

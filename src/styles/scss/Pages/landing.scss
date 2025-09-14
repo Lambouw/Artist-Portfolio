@@ -123,4 +123,8 @@
   .swiper-img {
     height: 250px; // Make image smaller for very small screens
   }
+
+  @include md {
+    width: 85%;
+  }
 }

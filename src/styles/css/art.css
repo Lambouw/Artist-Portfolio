@@ -27,4 +27,9 @@
 }
 .art--text {
   padding-top: 0.4rem;
+}
+@media (max-width: 768px) {
+  .art {
+    width: 85%;
+  }
 }/*# sourceMappingURL=art.css.map */
