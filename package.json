@@ -8,9 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy:patch": "npm version patch -m \"Release: v%s\" && git push && git push --tags",
+    "deploy:major": "npm version major -m \"Release: v%s\" && git push && git push --tags",
     "deploy:minor": "npm version minor -m \"Release: v%s\" && git push && git push --tags",
-    "deploy:major": "npm version major -m \"Release: v%s\" && git push && git push --tags"
+    "deploy:patch": "npm version patch -m \"Release: v%s\" && git push && git push --tags"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
