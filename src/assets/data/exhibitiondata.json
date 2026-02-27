@@ -1,4 +1,16 @@
 {
+  "2026": [
+    {
+      "name": "Open Haus mit Kunstausstellung \"Holz&Haus\"",
+      "location": "Kirchplatz 4 in Rechberghausen",
+      "month": "02"
+    },
+    {
+      "name": "POP UP ART",
+      "location": "Q Galerie Schorndorf",
+      "month": "02"
+    }
+  ],
   "2025": [
     {
       "name": "Jahresausstellung 2025: \"Narrenschiff\"",
@@ -16,7 +28,7 @@
       "month": "09"
     },
     {
-      "name": "Pop up Galerie Gagale's",
+      "name": "Pop Up Galerie Gagale's",
       "location": "Winnenden",
       "month": "06-08"
     }
@@ -28,7 +40,7 @@
       "month": "07"
     },
     {
-      "name": "Pop Up (Kulturforum)",
+      "name": "POP UP ART",
       "location": "Q Galerie Schorndorf",
       "month": "06"
     }
