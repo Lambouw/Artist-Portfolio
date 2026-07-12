@@ -1,5 +1,3 @@
-import React from "react";
-
 import "../../styles/css/imprint.css";
 
 const Imprint = () => {
@@ -15,8 +13,8 @@ const Imprint = () => {
           </p>
 
           <p>Ingrid Lindemann</p>
-          <p>Loeweweg 3</p>
-          <p>71397 Leutenbach</p>
+          <p>Alemannenweg 10</p>
+          <p>73614 Schorndorf</p>
           <p>Deutschland</p>
 
           <p className="imprint--header-small">Kontakt:</p>
@@ -33,8 +31,8 @@ const Imprint = () => {
           </p>
 
           <p>Ingrid Lindemann</p>
-          <p>Loeweweg 3</p>
-          <p>71397 Leutenbach</p>
+          <p>Alemannenweg 10</p>
+          <p>73614 Schorndorf</p>
           <p>Deutschland</p>
 
           <p>
