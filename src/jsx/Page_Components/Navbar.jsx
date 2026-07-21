@@ -176,7 +176,7 @@ const Navbar = () => {
             <NavLink
               onClick={hideBothDropdown}
               className="navbar--item"
-              to="/partners"
+              to="/partner"
             >
               Partner
             </NavLink>
@@ -451,7 +451,7 @@ const Navbar = () => {
           className={`navbar--hamburgermenu--item ${
             hamMenuVisibility ? "show" : ""
           }`}
-          to="/partners"
+          to="/partner"
         >
           Partner
         </NavLink>
