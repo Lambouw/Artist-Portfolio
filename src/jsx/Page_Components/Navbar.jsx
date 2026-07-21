@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import Hamburger from "hamburger-react";
@@ -176,15 +176,6 @@ const Navbar = () => {
             <NavLink
               onClick={hideBothDropdown}
               className="navbar--item"
-              to="/contact"
-            >
-              Kontakt
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              onClick={hideBothDropdown}
-              className="navbar--item"
               to="/partners"
             >
               Partner
@@ -259,10 +250,10 @@ const Navbar = () => {
               </div>
               <div style={{ display: "flex" }}>
                 <div
-                  style={{ "marginLeft": "1.6rem" }}
+                  style={{ marginLeft: "1.6rem" }}
                   className="navbar--hamburgermenu--dropdown--content--row--verticalline--big"
                 ></div>
-                <div style={{ "marginLeft": "0.8rem" }}>
+                <div style={{ marginLeft: "0.8rem" }}>
                   <div className="navbar--hamburgermenu--dropdown--content--row">
                     <div
                       className={`navbar--hamburgermenu--dropdown--content--row--verticalline ${
@@ -454,15 +445,6 @@ const Navbar = () => {
           to="/about"
         >
           Über mich
-        </NavLink>
-        <NavLink
-          onClick={toggleHamMenuVis}
-          className={`navbar--hamburgermenu--item ${
-            hamMenuVisibility ? "show" : ""
-          }`}
-          to="/contact"
-        >
-          Kontakt
         </NavLink>
         <NavLink
           onClick={toggleHamMenuVis}
