@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 import "../../styles/css/about.css";
 
@@ -6,12 +6,12 @@ import me from "../../assets/images/webp/personal/me.webp";
 
 const About = () => {
   const titleRef = useRef(null);
-  const imageRef = useRef(null);
+  const imageWrapperRef = useRef(null);
   const textRef = useRef(null);
 
   useEffect(() => {
     titleRef.current.classList.add("slide-in-about-title");
-    imageRef.current.classList.add("slide-in-about-image");
+    imageWrapperRef.current.classList.add("slide-in-about-image");
     textRef.current.classList.add("slide-in-about-text");
   }, []);
 
@@ -21,12 +21,19 @@ const About = () => {
         Über mich
       </h1>
       <div className="about--content">
-        <img
-          className="about--content--image"
-          alt="Ingrid Lindemann"
-          src={me}
-          ref={imageRef}
-        ></img>
+        <div className="about--content--imagewrapper" ref={imageWrapperRef}>
+          <img
+            className="about--content--imagewrapper--image"
+            alt="Ingrid Lindemann"
+            src={me}
+          ></img>
+          <p className="about--content--imagewrapper--contact">
+            Kontakt:
+            <a className="extern" href="mailto:kunst@ilindemann.com">
+              kunst@ilindemann.com
+            </a>
+          </p>
+        </div>
         <div className="about--content--textcontainer" ref={textRef}>
           <p className="about--content--textcontainer--text">
             Meine Leidenschaft für die Bildhauerei habe ich bereits in meiner
