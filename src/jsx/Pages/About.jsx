@@ -28,7 +28,7 @@ const About = () => {
             src={me}
           ></img>
           <p className="about--content--imagewrapper--contact">
-            Kontakt:
+            Kontakt:{" "}
             <a className="extern" href="mailto:kunst@ilindemann.com">
               kunst@ilindemann.com
             </a>
