@@ -1,4 +1,11 @@
 {
+  "2027": [
+    {
+      "name": "Skulpturenpfad - Korber Kopf",
+      "location": "Bildhauerklasse Kunstschule unteres Remstal",
+      "month": "04-03/28"
+    }
+  ],
   "2026": [
     {
       "name": "Jahresausstellung 2026: \"Essenz 2026 / Schön!\"",
@@ -12,8 +19,13 @@
     },
     {
       "name": "Schorndorfer Kunstnacht (19.09.2026 18-24 Uhr)",
-      "location": "Schorndorfer Künstler, Galerien, Ateliers, Events … Shuttle Busse verbinden die Lokations",
+      "location": "Im Schock Areal mit dem Thema: Energie, Zustand, Transformation (Skulpturen aus der Serie Flammenspiel gehen in menschliche Proportionen über. Skulpturen mit Bildern der Skulpturen (Fotos digital/manuell bearbeitet, Aquarelle))",
       "month": "09"
+    },
+    {
+      "name": "Ausstellungsbeteiligung während des Symposions",
+      "location": "Bildhauerhof Michael Schützenberger Berglen Streich",
+      "month": "08"
     },
     {
       "name": "Open Haus mit Kunstausstellung \"Holz&Haus\"",
