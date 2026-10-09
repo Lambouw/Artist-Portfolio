@@ -25,12 +25,21 @@ jobs:
       - name: Build Vite React app
         run: npm run build
 
+      # Run lftp directly instead of the Docker-based pressidium/lftp-mirror-action,
+      # whose image build pulls from Docker Hub and fails on rate limits (HTTP 429).
+      - name: Install lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
       - name: Upload to Strato via SFTP
-        uses: pressidium/lftp-mirror-action@v1
-        with:
-          host: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USERNAME }}
-          pass: ${{ secrets.FTP_PASSWORD }}
-          localDir: ./build
-          remoteDir: /
-          reverse: true
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          ssh-keyscan -H -p 22 "$FTP_SERVER" >> ~/.ssh/known_hosts
+          lftp --env-password -u "$FTP_USERNAME" -p 22 "sftp://$FTP_SERVER" -e "
+            set ftp:ssl-force yes;
+            set ssl:verify-certificate yes;
+            mirror --reverse --only-newer ./build /;
+            bye"
